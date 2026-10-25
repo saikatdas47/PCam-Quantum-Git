@@ -1,0 +1,77 @@
+{
+  "saved_prediction_metrics": [
+    {
+      "tag": "resnet50_q8_mlp_standard_101",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_mlp_atan_101",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_off_101",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_on_101",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_on_202",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_mlp_standard_202",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_mlp_atan_202",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_off_202",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_off_303",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_ry_on_303",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_mlp_standard_303",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_q8_mlp_atan_303",
+      "all_metrics_match": true
+    },
+    {
+      "tag": "resnet50_selected_classical",
+      "all_metrics_match": true
+    }
+  ],
+  "all_13_test_models_and_all_reported_metrics_verified": true,
+  "selection_and_final_scope_match": true,
+  "neural_parameter_epoch_update_and_runtime_counts_match": true,
+  "all_5_nominal_and_4_adjusted_intervals_recomputed": true,
+  "jackknife_p_values_and_Holm_adjustment_verified": true,
+  "validation_roles_match": true,
+  "existing_circuit_and_raw_image_audit_records_checked": true,
+  "locked_hashes_verified": 676,
+  "primary_delta": -0.01191113734113336,
+  "primary_conditional95": [
+    -0.0235935701389308,
+    -0.00037904222262289864
+  ],
+  "primary_posthoc_p": 0.0526136953338867,
+  "new_fits": 0,
+  "limits": [
+    "No fresh external literature full text or external code audit in this consistency pass",
+    "No new raw pixel hash scan or complete bootstrap resampling rerun",
+    "Existing raw image and circuit validation records read; their earlier execution remains the provenance",
+    "Public upload and project reuse licensing remain pending. Author declarations have been supplied."
+  ]
+}

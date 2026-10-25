@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and its original dataset when using this study. No publication DOI has been assigned."
+title: "A comparison of simulated quantum and classical classification heads on frozen ResNet50 features for PatchCamelyon"
+type: software
+version: 0.3.0
+authors:
+  - family-names: Das
+    given-names: Saikat
+    affiliation: "Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka, Bangladesh"
+    email: saikatdasmain47@gmail.com
+repository-code: "https://github.com/saikatdas47/PCam-Quantum-Git"
+url: "https://github.com/saikatdas47/PCam-Quantum-Git"
+abstract: "Saved evidence, source code and reproducibility checks for a frozen ResNet50 comparison of simulated quantum and classical classification heads on PatchCamelyon."
+keywords:
+  - PatchCamelyon
+  - quantum machine learning
+  - ResNet50
+  - reproducibility

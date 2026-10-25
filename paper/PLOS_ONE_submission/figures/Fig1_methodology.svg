@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.4in" height="8.436in" viewBox="0 0 1000 1140"><rect width="1000" height="1140" fill="white"/>
+<rect x="10" y="10" width="980" height="225" fill="#FFFFFF" stroke="#C9D1D8" stroke-width="1"/>
+<text x="28" y="40.435" font-family="Arial" font-size="21" font-weight="700" fill="#222222" text-anchor="start">A</text>
+<text x="65" y="39.965" font-family="Arial" font-size="19" font-weight="700" fill="#222222" text-anchor="start">Official data and frozen image representation</text>
+<rect x="30" y="65" width="220" height="123" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="140.0" y="96.98" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">PatchCamelyon</text>
+<text x="140.0" y="119.48" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">Train 262,144</text>
+<text x="140.0" y="141.98" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">Validation 32,768</text>
+<text x="140.0" y="164.48" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">Test 32,768</text>
+<rect x="285" y="65" width="190" height="123" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="380.0" y="98.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">96 × 96 RGB patches</text>
+<text x="380.0" y="119.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Resize to 224 × 224</text>
+<text x="380.0" y="141.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Normalize (ImageNet)</text>
+<text x="380.0" y="162.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">No augmentation</text>
+<rect x="510" y="65" width="200" height="123" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="610.0" y="98.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Frozen ResNet50</text>
+<text x="610.0" y="119.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">ImageNet weights</text>
+<text x="610.0" y="141.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Global average pooling</text>
+<text x="610.0" y="162.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">No fine tuning</text>
+<rect x="745" y="65" width="220" height="123" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="855.0" y="100.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">2,048 features / patch</text>
+<text x="855.0" y="120.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Shared frozen features</text>
+<text x="855.0" y="140.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Saved sample and WSI IDs</text>
+<text x="855.0" y="160.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Resumable feature cache</text>
+<polyline points="250,126 285,126" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="285,126 277.0,122.0 277.0,130.0" fill="#53616E"/>
+<polyline points="475,126 510,126" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="510,126 502.0,122.0 502.0,130.0" fill="#53616E"/>
+<polyline points="710,126 745,126" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="745,126 737.0,122.0 737.0,130.0" fill="#53616E"/>
+<text x="30" y="216.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="start">The same encoder is used for all splits. Official test features are extracted only after the test lock.</text>
+<rect x="10" y="252" width="980" height="198" fill="#FFFFFF" stroke="#C9D1D8" stroke-width="1"/>
+<text x="28" y="282.435" font-family="Arial" font-size="21" font-weight="700" fill="#222222" text-anchor="start">B</text>
+<text x="65" y="281.965" font-family="Arial" font-size="19" font-weight="700" fill="#222222" text-anchor="start">Training only selection and shared feature transforms</text>
+<rect x="30" y="299" width="440" height="128" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="250.0" y="335.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Selection subset: 16,384 training patches</text>
+<text x="250.0" y="356.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Three folds grouped by whole slide</text>
+<text x="250.0" y="377.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Fit PCA and scaling within each fitting fold</text>
+<text x="250.0" y="398.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Select shared neural rate and classical reference</text>
+<rect x="510" y="299" width="455" height="128" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="737.5" y="335.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Final transform fitted on all 262,144 training rows</text>
+<text x="737.5" y="356.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">PCA: 2,048 → 8 components, then standardize</text>
+<text x="737.5" y="377.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">z = standardized components, a = arctan(z)</text>
+<text x="737.5" y="398.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Apply the fitted transform to held out data</text>
+<polyline points="470,363 510,363" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="510,363 502.0,359.0 502.0,367.0" fill="#53616E"/>
+<rect x="10" y="468" width="980" height="305" fill="#FFFFFF" stroke="#C9D1D8" stroke-width="1"/>
+<text x="28" y="498.435" font-family="Arial" font-size="21" font-weight="700" fill="#222222" text-anchor="start">C</text>
+<text x="65" y="497.965" font-family="Arial" font-size="19" font-weight="700" fill="#222222" text-anchor="start">Four trainable heads and a selected classical reference</text>
+<polyline points="737,427 737,518 117,518 117,533" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="117,533 121.0,525.0 113.0,525.0" fill="#53616E"/>
+<polyline points="737,518 307,518 307,533" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="307,533 311.0,525.0 303.0,525.0" fill="#53616E"/>
+<polyline points="737,518 497,518 497,533" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="497,533 501.0,525.0 493.0,525.0" fill="#53616E"/>
+<polyline points="737,518 687,518 687,533" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="687,533 691.0,525.0 683.0,525.0" fill="#53616E"/>
+<polyline points="737,518 877,518 877,533" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="877,533 881.0,525.0 873.0,525.0" fill="#53616E"/>
+<rect x="30" y="533" width="175" height="115" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="117.5" y="562.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Standard MLP</text>
+<text x="117.5" y="583.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Input z</text>
+<text x="117.5" y="605.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">8 → 32 → 1, tanh</text>
+<text x="117.5" y="626.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">321 parameters</text>
+<rect x="220" y="533" width="175" height="115" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="307.5" y="562.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Arctangent MLP</text>
+<text x="307.5" y="583.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Input a</text>
+<text x="307.5" y="605.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">8 → 32 → 1, tanh</text>
+<text x="307.5" y="626.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">321 parameters</text>
+<rect x="410" y="533" width="175" height="115" fill="#FFF4E9" stroke="#AE7844" stroke-width="1.2"/>
+<text x="497.5" y="562.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">RY, CNOT off</text>
+<text x="497.5" y="583.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Input a, 8 wires</text>
+<text x="497.5" y="605.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Two RY layers</text>
+<text x="497.5" y="626.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">25 parameters</text>
+<rect x="600" y="533" width="175" height="115" fill="#FFF4E9" stroke="#AE7844" stroke-width="1.2"/>
+<text x="687.5" y="562.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">RY, CNOT on</text>
+<text x="687.5" y="583.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Input a, 8 wires</text>
+<text x="687.5" y="605.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Two RY layers</text>
+<text x="687.5" y="626.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">25 parameters</text>
+<rect x="790" y="533" width="175" height="115" fill="#F4F4F4" stroke="#797979" stroke-width="1.2"/>
+<text x="877.5" y="564.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Classical reference</text>
+<text x="877.5" y="584.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Input a</text>
+<text x="877.5" y="604.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Fourier Nyström</text>
+<text x="877.5" y="624.26" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">256 landmarks + SGD</text>
+<rect x="30" y="673" width="575" height="78" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="317.5" y="694.745" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Neural heads: Adam, rate 0.003, batch 128, 100 epochs</text>
+<text x="317.5" y="715.995" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Seeds 101, 202, 303. Matched CPU float64 training.</text>
+<text x="317.5" y="737.245" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">CNOT off/on share initialization, readout and batch order.</text>
+<rect x="625" y="658" width="340" height="100" fill="#FFF9F2" stroke="#AE7844" stroke-width="1.2"/>
+<text x="795.0" y="681.76" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">RY(a) → two trainable RY layers</text>
+<text x="795.0" y="701.76" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">On: CNOT chain after each layer</text>
+<text x="795.0" y="721.76" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">8 Pauli Z means → linear readout</text>
+<text x="795.0" y="741.76" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="middle">Exact simulation, no shots or hardware</text>
+<rect x="10" y="791" width="980" height="285" fill="#FFFFFF" stroke="#C9D1D8" stroke-width="1"/>
+<text x="28" y="821.435" font-family="Arial" font-size="21" font-weight="700" fill="#222222" text-anchor="start">D</text>
+<text x="65" y="820.965" font-family="Arial" font-size="19" font-weight="700" fill="#222222" text-anchor="start">Validation thresholds, artifact lock and official test evaluation</text>
+<rect x="30" y="843" width="285" height="128" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="172.5" y="877.48" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">Validation split by slide</text>
+<text x="172.5" y="899.98" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">17,090: threshold selection</text>
+<text x="172.5" y="922.48" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">15,678: diagnostic evaluation</text>
+<text x="172.5" y="944.98" font-family="Arial" font-size="18" font-weight="400" fill="#222222" text-anchor="middle">Youden threshold per model</text>
+<rect x="355" y="843" width="285" height="128" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="497.5" y="879.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Lock fitted artifacts</text>
+<text x="497.5" y="900.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Models, transforms, thresholds</text>
+<text x="497.5" y="921.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Comparisons and analysis settings</text>
+<text x="497.5" y="942.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">SHA256 artifact checks</text>
+<rect x="680" y="843" width="285" height="128" fill="#F1F5F8" stroke="#597187" stroke-width="1.2"/>
+<text x="822.5" y="879.12" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Official test: 32,768 patches</text>
+<text x="822.5" y="900.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">129 whole slide groups</text>
+<text x="822.5" y="921.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">12 neural fits + 1 reference</text>
+<text x="822.5" y="942.87" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="middle">Saved scores and probabilities</text>
+<polyline points="315,907 355,907" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="355,907 347.0,903.0 347.0,911.0" fill="#53616E"/>
+<polyline points="640,907 680,907" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="680,907 672.0,903.0 672.0,911.0" fill="#53616E"/>
+<text x="30" y="1018.37" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="start">Paired WSI bootstrap: 20,000 draws. Training seed SD reported separately.</text>
+<text x="30" y="1039.62" font-family="Arial" font-size="17" font-weight="400" fill="#222222" text-anchor="start">Primary: CNOT on versus selected classical. Four secondary contrasts use adjusted intervals.</text>
+<text x="30" y="1108.76" font-family="Arial" font-size="16" font-weight="400" fill="#222222" text-anchor="start">Post hoc checks: exact image overlap, slide influence, and circuit output and gradient validation.</text>
+<polyline points="500,235 500,252" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="500,252 504.0,244.0 496.0,244.0" fill="#53616E"/>
+<polyline points="500,773 500,791" fill="none" stroke="#53616E" stroke-width="1.4"/>
+<polygon points="500,791 504.0,783.0 496.0,783.0" fill="#53616E"/>
+</svg>

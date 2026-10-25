@@ -1,0 +1,11 @@
+{
+  "version": "0.3.0",
+  "status": "Prepared locally. No remote upload performed in this task.",
+  "repository": "https://github.com/saikatdas47/PCam-Quantum-Git",
+  "raw_images_included": false,
+  "full_encoder_features_included": false,
+  "original_evidence_files": 1208,
+  "original_manifest_entries": 1207,
+  "license_status": "No new project wide reuse license assigned. Third party terms retained.",
+  "new_training": false
+}

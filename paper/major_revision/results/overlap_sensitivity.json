@@ -1,0 +1,69 @@
+{
+  "status": "Post hoc descriptive sensitivity after exact-image audit. Original locked results retained. No refit, tuning or new primary inference.",
+  "shared_unique_hashes": 33,
+  "affected_training_rows": 35,
+  "excluded_test_rows": 34,
+  "excluded_test_positives": 33,
+  "remaining_test_rows": 32734,
+  "remaining_positive_rows": 16344,
+  "remaining_negative_rows": 16390,
+  "CNOT_on_mean_AUROC_excluding_overlap": 0.8656058597684857,
+  "selected_classical_AUROC_excluding_overlap": 0.8774851111415728,
+  "primary_difference_excluding_overlap": -0.011879251373087096,
+  "full_primary_difference": -0.01191113734113336,
+  "models": {
+    "resnet50_q8_mlp_atan_101": {
+      "full_AUROC": 0.871200802508143,
+      "overlap_excluded_AUROC": 0.8710516527364531
+    },
+    "resnet50_q8_mlp_atan_202": {
+      "full_AUROC": 0.8737980753783349,
+      "overlap_excluded_AUROC": 0.8736545077060407
+    },
+    "resnet50_q8_mlp_atan_303": {
+      "full_AUROC": 0.8738334544667575,
+      "overlap_excluded_AUROC": 0.8736896318833904
+    },
+    "resnet50_q8_mlp_standard_101": {
+      "full_AUROC": 0.8772159180923551,
+      "overlap_excluded_AUROC": 0.8771194038364307
+    },
+    "resnet50_q8_mlp_standard_202": {
+      "full_AUROC": 0.8775606080907203,
+      "overlap_excluded_AUROC": 0.8774232658608675
+    },
+    "resnet50_q8_mlp_standard_303": {
+      "full_AUROC": 0.8745965467960789,
+      "overlap_excluded_AUROC": 0.8744616433082861
+    },
+    "resnet50_q8_ry_off_101": {
+      "full_AUROC": 0.8749969261692814,
+      "overlap_excluded_AUROC": 0.8748529630037776
+    },
+    "resnet50_q8_ry_off_202": {
+      "full_AUROC": 0.8747590849667607,
+      "overlap_excluded_AUROC": 0.8746135631213834
+    },
+    "resnet50_q8_ry_off_303": {
+      "full_AUROC": 0.8728011837872044,
+      "overlap_excluded_AUROC": 0.8726522647460323
+    },
+    "resnet50_q8_ry_on_101": {
+      "full_AUROC": 0.8634452645064069,
+      "overlap_excluded_AUROC": 0.8633491024426926
+    },
+    "resnet50_q8_ry_on_202": {
+      "full_AUROC": 0.8666657860078792,
+      "overlap_excluded_AUROC": 0.8665760359112515
+    },
+    "resnet50_q8_ry_on_303": {
+      "full_AUROC": 0.867021126613152,
+      "overlap_excluded_AUROC": 0.8668924409515132
+    },
+    "resnet50_selected_classical": {
+      "full_AUROC": 0.8776218630502794,
+      "overlap_excluded_AUROC": 0.8774851111415728
+    }
+  },
+  "limits": "Exact overlap is a benchmark integrity limitation. This sensitivity does not prove the remaining images are independent or remove near duplicates. No interval or significance claim is added for the filtered cohort."
+}

@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.cache/
+.matplotlib/
+**/.matplotlib/
+resnet50_evidence/
+data/raw/
+features/
+*.unpacking

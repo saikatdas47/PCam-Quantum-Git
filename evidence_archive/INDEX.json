@@ -1,0 +1,42 @@
+{
+  "format": "Concatenated gzip tar stream, ordered parts",
+  "files_in_archive": 1208,
+  "uncompressed_bytes": 920350582,
+  "parts": [
+    {
+      "file": "evidence.tar.gz.part001",
+      "bytes": 50331648,
+      "sha256": "f7cfd3e3e2d6f03d635a74b953cab971b71b84fa6af7b1d09cbfd3cc8b5de85d"
+    },
+    {
+      "file": "evidence.tar.gz.part002",
+      "bytes": 50331648,
+      "sha256": "3922e629ded20e0f0197104fcfa6dc0bd29057583c36dc69a8128c367529f1aa"
+    },
+    {
+      "file": "evidence.tar.gz.part003",
+      "bytes": 50331648,
+      "sha256": "7f7d8c13f6d9b3db5464c7ef37a7b2a0b57be4080638f278ea6892953cc12606"
+    },
+    {
+      "file": "evidence.tar.gz.part004",
+      "bytes": 50331648,
+      "sha256": "75625e0d0fc20cec0c5abc4c7d405330babe56d8b306f84fd9c617f95dde39d4"
+    },
+    {
+      "file": "evidence.tar.gz.part005",
+      "bytes": 50331648,
+      "sha256": "2a16ddee4ab411e18ca1e8ad3d1f2bde9ca3e2268a7346e7605d10aa9609bf93"
+    },
+    {
+      "file": "evidence.tar.gz.part006",
+      "bytes": 50331648,
+      "sha256": "9b0062c87d3d14fc3ed8c8c40d534d0e782c53a62c78f2695fdc3de5be11e21c"
+    },
+    {
+      "file": "evidence.tar.gz.part007",
+      "bytes": 35181138,
+      "sha256": "b700242dea26ce85a51aa7e9ae59cd7a6ee340de7d0dbe36ec5fd92040b19aed"
+    }
+  ]
+}

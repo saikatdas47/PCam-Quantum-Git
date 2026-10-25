@@ -1,0 +1,436 @@
+{
+  "PCA": [
+    {
+      "fit": "final",
+      "training_rows": 262144,
+      "components": 8,
+      "cumulative_explained_variance": 0.5880049113184214,
+      "PC1": 0.23055021464824677,
+      "PC2": 0.11247381567955017,
+      "PC3": 0.07374896109104156,
+      "PC4": 0.05748112499713898,
+      "PC5": 0.03521732985973358,
+      "PC6": 0.03054621070623398,
+      "PC7": 0.025339839980006218,
+      "PC8": 0.022647414356470108
+    },
+    {
+      "fit": "cv0",
+      "training_rows": 10696,
+      "components": 8,
+      "cumulative_explained_variance": 0.5892590060830116,
+      "PC1": 0.23216570913791656,
+      "PC2": 0.11277619004249573,
+      "PC3": 0.0741729810833931,
+      "PC4": 0.055156342685222626,
+      "PC5": 0.036572933197021484,
+      "PC6": 0.02976936846971512,
+      "PC7": 0.02567511424422264,
+      "PC8": 0.02297036722302437
+    },
+    {
+      "fit": "cv1",
+      "training_rows": 11016,
+      "components": 8,
+      "cumulative_explained_variance": 0.5877596661448479,
+      "PC1": 0.2304406315088272,
+      "PC2": 0.11311882734298706,
+      "PC3": 0.07204777002334595,
+      "PC4": 0.057972252368927,
+      "PC5": 0.03609822690486908,
+      "PC6": 0.030311869457364082,
+      "PC7": 0.025663886219263077,
+      "PC8": 0.022106202319264412
+    },
+    {
+      "fit": "cv2",
+      "training_rows": 11056,
+      "components": 8,
+      "cumulative_explained_variance": 0.5874069947749376,
+      "PC1": 0.23267315328121185,
+      "PC2": 0.1092677116394043,
+      "PC3": 0.07463881373405457,
+      "PC4": 0.05854177102446556,
+      "PC5": 0.03351684287190437,
+      "PC6": 0.030022351071238518,
+      "PC7": 0.025334645062685013,
+      "PC8": 0.02341170608997345
+    }
+  ],
+  "pickle_version_warnings": [
+    "Trying to unpickle estimator PCA from version 1.6.1 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "PCA_method": "Stored attributes read only. No PCA fit or transform under the changed local sklearn version.",
+  "neural_selection": [
+    {
+      "head": "mlp_standard",
+      "learning_rate": 0.001,
+      "fold0": 0.8839368569449941,
+      "fold1": 0.8937002074825611,
+      "fold2": 0.885075329613328,
+      "mean_AUROC": 0.8875707980136278,
+      "common_selected_lr": false
+    },
+    {
+      "head": "mlp_standard",
+      "learning_rate": 0.003,
+      "fold0": 0.8793815542144836,
+      "fold1": 0.8869492844315888,
+      "fold2": 0.8866298520482144,
+      "mean_AUROC": 0.8843202302314289,
+      "common_selected_lr": true
+    },
+    {
+      "head": "mlp_standard",
+      "learning_rate": 0.01,
+      "fold0": 0.8757813118322121,
+      "fold1": 0.8839100015757291,
+      "fold2": 0.8829598592243435,
+      "mean_AUROC": 0.8808837242107614,
+      "common_selected_lr": false
+    },
+    {
+      "head": "mlp_atan",
+      "learning_rate": 0.001,
+      "fold0": 0.8772165611396913,
+      "fold1": 0.8944404530602809,
+      "fold2": 0.8880804482281561,
+      "mean_AUROC": 0.8865791541427095,
+      "common_selected_lr": false
+    },
+    {
+      "head": "mlp_atan",
+      "learning_rate": 0.003,
+      "fold0": 0.876490032647408,
+      "fold1": 0.8884308862330567,
+      "fold2": 0.8891594763188447,
+      "mean_AUROC": 0.8846934650664364,
+      "common_selected_lr": true
+    },
+    {
+      "head": "mlp_atan",
+      "learning_rate": 0.01,
+      "fold0": 0.8720984616145627,
+      "fold1": 0.8818997322648918,
+      "fold2": 0.8871394714313493,
+      "mean_AUROC": 0.880379221770268,
+      "common_selected_lr": false
+    },
+    {
+      "head": "ry_off",
+      "learning_rate": 0.001,
+      "fold0": 0.8535621537396123,
+      "fold1": 0.8829280516561469,
+      "fold2": 0.874176187011982,
+      "mean_AUROC": 0.8702221308025804,
+      "common_selected_lr": false
+    },
+    {
+      "head": "ry_off",
+      "learning_rate": 0.003,
+      "fold0": 0.855143821725366,
+      "fold1": 0.8840092655644893,
+      "fold2": 0.8747706959547868,
+      "mean_AUROC": 0.8713079277482141,
+      "common_selected_lr": true
+    },
+    {
+      "head": "ry_off",
+      "learning_rate": 0.01,
+      "fold0": 0.8559196923229127,
+      "fold1": 0.883673850464007,
+      "fold2": 0.8771539491906374,
+      "mean_AUROC": 0.8722491639925191,
+      "common_selected_lr": false
+    },
+    {
+      "head": "ry_on",
+      "learning_rate": 0.001,
+      "fold0": 0.8287723832607836,
+      "fold1": 0.8605035530260592,
+      "fold2": 0.841477631107483,
+      "mean_AUROC": 0.8435845224647753,
+      "common_selected_lr": false
+    },
+    {
+      "head": "ry_on",
+      "learning_rate": 0.003,
+      "fold0": 0.8320790462999604,
+      "fold1": 0.8648282698286759,
+      "fold2": 0.8722420587720597,
+      "mean_AUROC": 0.8563831249668987,
+      "common_selected_lr": true
+    },
+    {
+      "head": "ry_on",
+      "learning_rate": 0.01,
+      "fold0": 0.8373519736842104,
+      "fold1": 0.8674510604240029,
+      "fold2": 0.8733224969883243,
+      "mean_AUROC": 0.8593751770321791,
+      "common_selected_lr": false
+    }
+  ],
+  "candidate_grid": [
+    {
+      "id": "logistic_standard_c01",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 0.1
+    },
+    {
+      "id": "logistic_standard_c1",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 1.0
+    },
+    {
+      "id": "logistic_standard_c10",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 10.0
+    },
+    {
+      "id": "logistic_atan_c01",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 0.1
+    },
+    {
+      "id": "logistic_atan_c1",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 1.0
+    },
+    {
+      "id": "logistic_atan_c10",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 10.0
+    },
+    {
+      "id": "extra_leaf1",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 1
+    },
+    {
+      "id": "extra_leaf5",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 5
+    },
+    {
+      "id": "extra_leaf20",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 20
+    },
+    {
+      "id": "hgb_leaf15",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 15
+    },
+    {
+      "id": "hgb_leaf31",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 31
+    },
+    {
+      "id": "hgb_leaf63",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 63
+    },
+    {
+      "id": "fourier_nystrom_a0001",
+      "family": "fourier_nystrom",
+      "mapping": "atan",
+      "alpha": 0.0001
+    },
+    {
+      "id": "fourier_nystrom_a001",
+      "family": "fourier_nystrom",
+      "mapping": "atan",
+      "alpha": 0.001
+    }
+  ],
+  "initialization": {
+    "neural_selection_seed": 71911,
+    "final_seeds": [
+      101,
+      202,
+      303
+    ],
+    "rotation_weights": "Independent normal mean0 SD0.1",
+    "circuit_readout": "torch.nn.Linear uniform [-1/sqrt(8),1/sqrt(8)] for weights and bias",
+    "MLP": "torch.nn.Linear uses uniform bounds 1/sqrt(fan_in) for weights and biases. Hidden fan_in8, output fan_in32.",
+    "pairing": "CNOT off state copied from CNOT on within each seed in original torch_training.py",
+    "table_status": "Reconstructed using retained initialization definitions under local torch2.14.1. Not claimed to be archived original initial tensors or a cross-version RNG proof."
+  },
+  "slide_summary": {
+    "train": {
+      "slides": 216,
+      "min": 537,
+      "median": 697.5,
+      "max": 3800,
+      "p25": 626.5,
+      "p75": 1821.5,
+      "largest_slide_fraction": 0.014495849609375,
+      "largest5_slide_fraction": 0.06687545776367188
+    },
+    "valid": {
+      "slides": 54,
+      "min": 259,
+      "median": 345.0,
+      "max": 1728,
+      "p25": 304.75,
+      "p75": 944.25,
+      "largest_slide_fraction": 0.052734375,
+      "largest5_slide_fraction": 0.213287353515625
+    },
+    "test": {
+      "slides": 129,
+      "min": 98,
+      "median": 140.0,
+      "max": 716,
+      "p25": 120.0,
+      "p75": 387.0,
+      "largest_slide_fraction": 0.0218505859375,
+      "largest5_slide_fraction": 0.103057861328125
+    }
+  },
+  "primary_influence": {
+    "full_delta": -0.01191113734113336,
+    "min_leave_one_delta": -0.01578600356965143,
+    "max_leave_one_delta": -0.009775229774555583,
+    "top5": [
+      {
+        "slide": "camelyon16_test_099",
+        "patches": 677,
+        "positive_patches": 581,
+        "primary_difference_without_slide": -0.01578600356965143,
+        "change_from_full": -0.00387486622851807
+      },
+      {
+        "slide": "camelyon16_test_051",
+        "patches": 570,
+        "positive_patches": 463,
+        "primary_difference_without_slide": -0.009775229774555583,
+        "change_from_full": 0.002135907566577777
+      },
+      {
+        "slide": "camelyon16_test_108",
+        "patches": 469,
+        "positive_patches": 361,
+        "primary_difference_without_slide": -0.010271998365408708,
+        "change_from_full": 0.0016391389757246522
+      },
+      {
+        "slide": "camelyon16_test_066",
+        "patches": 716,
+        "positive_patches": 590,
+        "primary_difference_without_slide": -0.013369507337513853,
+        "change_from_full": -0.001458369996380493
+      },
+      {
+        "slide": "camelyon16_test_079",
+        "patches": 678,
+        "positive_patches": 581,
+        "primary_difference_without_slide": -0.013197045937022533,
+        "change_from_full": -0.0012859085958891736
+      }
+    ],
+    "timing": "Post hoc descriptive sensitivity. No slide removed from the reported comparison."
+  },
+  "training_diagnostics": [
+    {
+      "tag": "resnet50_q8_mlp_atan_101",
+      "last20_decline": 0.004235453141372081,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4029396598183368,
+      "final_loss": 0.3699394490551492
+    },
+    {
+      "tag": "resnet50_q8_mlp_atan_202",
+      "last20_decline": 0.0001732221744640272,
+      "gate_passed": true,
+      "first_epoch_loss": 0.40067678047596095,
+      "final_loss": 0.3674292132674929
+    },
+    {
+      "tag": "resnet50_q8_mlp_atan_303",
+      "last20_decline": 0.003910129204114987,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4007290694553015,
+      "final_loss": 0.36508516341716424
+    },
+    {
+      "tag": "resnet50_q8_mlp_standard_101",
+      "last20_decline": -1.7101743250369505e-05,
+      "gate_passed": true,
+      "first_epoch_loss": 0.377939746501833,
+      "final_loss": 0.352175780691269
+    },
+    {
+      "tag": "resnet50_q8_mlp_standard_202",
+      "last20_decline": 0.002772783143843216,
+      "gate_passed": true,
+      "first_epoch_loss": 0.3769673745409125,
+      "final_loss": 0.3523514512907742
+    },
+    {
+      "tag": "resnet50_q8_mlp_standard_303",
+      "last20_decline": 0.001269850218740154,
+      "gate_passed": true,
+      "first_epoch_loss": 0.3799303113308295,
+      "final_loss": 0.3502614590969634
+    },
+    {
+      "tag": "resnet50_q8_ry_off_101",
+      "last20_decline": -0.0024392205534217726,
+      "gate_passed": true,
+      "first_epoch_loss": 0.44286770791634433,
+      "final_loss": 0.44271933540664565
+    },
+    {
+      "tag": "resnet50_q8_ry_off_202",
+      "last20_decline": -0.000822060321892859,
+      "gate_passed": true,
+      "first_epoch_loss": 0.44371456778991625,
+      "final_loss": 0.4385130280091235
+    },
+    {
+      "tag": "resnet50_q8_ry_off_303",
+      "last20_decline": 0.0021748626412552707,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4408139576946873,
+      "final_loss": 0.4402587478923794
+    },
+    {
+      "tag": "resnet50_q8_ry_on_101",
+      "last20_decline": -0.001609042369793534,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4661285842786039,
+      "final_loss": 0.46017579112545726
+    },
+    {
+      "tag": "resnet50_q8_ry_on_202",
+      "last20_decline": 0.0003146078579762679,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4712406388706314,
+      "final_loss": 0.4572604792825361
+    },
+    {
+      "tag": "resnet50_q8_ry_on_303",
+      "last20_decline": 0.0012693015151808984,
+      "gate_passed": true,
+      "first_epoch_loss": 0.4601067485600082,
+      "final_loss": 0.438237513470054
+    }
+  ],
+  "status": "Executed reporting additions and post hoc descriptive audits. No new training or test selection."
+}

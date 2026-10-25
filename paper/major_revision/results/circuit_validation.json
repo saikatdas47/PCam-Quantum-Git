@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "timing": "Post hoc implementation validation after test inspection",
+  "independence": "Separate NumPy full Kronecker matrices and explicit computational-basis CNOT matrices. Central finite differences of this reference test PyTorch autograd. Same researcher/tool workflow, not external replication.",
+  "seed": 240624,
+  "source": "resnet50_evidence/experiments/experiment_011_train_resnet50/scripts/torch_circuit.py",
+  "source_sha256": "eb68af1826f5734252937c310973e8efc0244298f97549003279307979cf3d75",
+  "wire_order": "Wire0 is most significant. Chains apply 0 to1 through q-2 toq-1 in that order.",
+  "checks": [
+    {
+      "q": 4,
+      "CNOT": false,
+      "forward_cases": 6,
+      "gradient_coordinates_per_case": 12,
+      "max_forward_absolute_error": 6.661338147750939e-16,
+      "max_gradient_absolute_error": 8.274756435611152e-10,
+      "analytical_cosine_max_error": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "q": 4,
+      "CNOT": true,
+      "forward_cases": 6,
+      "gradient_coordinates_per_case": 12,
+      "max_forward_absolute_error": 8.881784197001252e-16,
+      "max_gradient_absolute_error": 5.832870297872716e-10,
+      "analytical_cosine_max_error": null,
+      "passed": true
+    },
+    {
+      "q": 8,
+      "CNOT": false,
+      "forward_cases": 6,
+      "gradient_coordinates_per_case": 24,
+      "max_forward_absolute_error": 1.2212453270876722e-15,
+      "max_gradient_absolute_error": 1.885831046877229e-09,
+      "analytical_cosine_max_error": 8.881784197001252e-16,
+      "passed": true
+    },
+    {
+      "q": 8,
+      "CNOT": true,
+      "forward_cases": 6,
+      "gradient_coordinates_per_case": 24,
+      "max_forward_absolute_error": 6.661338147750939e-16,
+      "max_gradient_absolute_error": 1.5865838590839454e-09,
+      "analytical_cosine_max_error": null,
+      "passed": true
+    }
+  ],
+  "environment": {
+    "numpy": "1.26.4",
+    "torch": "2.14.1"
+  },
+  "finite_difference_step": 1e-06,
+  "forward_tolerance": 1e-12,
+  "gradient_tolerance": 1e-08
+}

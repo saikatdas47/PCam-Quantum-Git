@@ -1,0 +1,164 @@
+{
+  "version": 7,
+  "status": "independent_backbone_protocol_amendment",
+  "scope": "Full official PCam, frozen ImageNet backbones, simulated heads, elapsed time only",
+  "backbones": {
+    "resnet50": {
+      "model": "resnet50.tv_in1k",
+      "features": 2048
+    }
+  },
+  "samples": {
+    "train": 262144,
+    "valid": 32768,
+    "test": 32768
+  },
+  "data_policy": "Native official rows retained including repeats; common IDs for all models; slide-disjoint folds; no test tuning",
+  "input_resize": [
+    224,
+    224
+  ],
+  "feature_batch": 64,
+  "feature_chunk": 512,
+  "threads": 2,
+  "dtype": "float64",
+  "dimensions": [
+    4,
+    8
+  ],
+  "heads": [
+    "mlp_standard",
+    "mlp_atan",
+    "ry_off",
+    "ry_on"
+  ],
+  "final_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "selection_seed": 71911,
+  "selection_samples": 16384,
+  "selection_folds": 3,
+  "learning_rates": [
+    0.001,
+    0.003,
+    0.01
+  ],
+  "epochs": 100,
+  "batch_size": 128,
+  "checkpoint_epochs": 1,
+  "fold_seed": 71912,
+  "bootstrap_seed": 71913,
+  "bootstrap_draws": 20000,
+  "calibration_seed": 71914,
+  "calibration_fraction_slides": 0.5,
+  "primary": "Within this backbone: q8 CNOT on minus training-selected classical reference",
+  "primary_interval": "Paired official-test WSI bootstrap, conditional on fixed fitted models, two-sided nominal 95%",
+  "secondary_family_size": 27,
+  "timing_repeats": 5,
+  "test_enabled": false,
+  "classical_candidates": [
+    {
+      "id": "logistic_standard_c01",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 0.1
+    },
+    {
+      "id": "logistic_standard_c1",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 1.0
+    },
+    {
+      "id": "logistic_standard_c10",
+      "family": "logistic",
+      "mapping": "standard",
+      "C": 10.0
+    },
+    {
+      "id": "logistic_atan_c01",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 0.1
+    },
+    {
+      "id": "logistic_atan_c1",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 1.0
+    },
+    {
+      "id": "logistic_atan_c10",
+      "family": "logistic",
+      "mapping": "atan",
+      "C": 10.0
+    },
+    {
+      "id": "extra_leaf1",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 1
+    },
+    {
+      "id": "extra_leaf5",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 5
+    },
+    {
+      "id": "extra_leaf20",
+      "family": "extra",
+      "mapping": "standard",
+      "min_samples_leaf": 20
+    },
+    {
+      "id": "hgb_leaf15",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 15
+    },
+    {
+      "id": "hgb_leaf31",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 31
+    },
+    {
+      "id": "hgb_leaf63",
+      "family": "hgb",
+      "mapping": "standard",
+      "max_leaf_nodes": 63
+    },
+    {
+      "id": "fourier_nystrom_a0001",
+      "family": "fourier_nystrom",
+      "mapping": "atan",
+      "alpha": 0.0001
+    },
+    {
+      "id": "fourier_nystrom_a001",
+      "family": "fourier_nystrom",
+      "mapping": "atan",
+      "alpha": 0.001
+    }
+  ],
+  "fourier_landmarks": 256,
+  "classical_selection_includes_both_mlp_mappings": true,
+  "shot_analysis": false,
+  "fine_tuning": false,
+  "ram_cpu_profiling": false,
+  "timing_diagnostic_samples": 1024,
+  "timing_diagnostic_epochs": 10,
+  "pca_solver": "randomized_fixed_seed_oversamples24_power7",
+  "full_feature_controls": [
+    "mlp_full",
+    "mlp_reconstructed8"
+  ],
+  "simulator": "Exact PyTorch CPU float64 RY/CNOT statevector; no shots",
+  "implementation_amendment": "Same mathematical circuits and original pretrained weight variants; new source identities and independent caches/checkpoints. Historical simulator timings are not pooled.",
+  "selection_amendment": "One common LR across compared heads selected using only this backbone training folds. Independent backbone runs; original pooled-backbone LR selection superseded."
+}

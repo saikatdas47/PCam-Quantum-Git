@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Preserve the original scientific source bytes and archive checksums across platforms.
+resnet50_evidence/** -text
+*.npz -text
+*.npy -text
+*.pt -text
+*.joblib -text
+*.tif -text
+*.png -text
+*.pdf -text
+*.docx -text
+*.part* -text
