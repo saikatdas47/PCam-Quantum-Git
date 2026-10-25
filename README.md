@@ -1,70 +1,68 @@
-# Simulated quantum and classical heads on frozen ResNet50 features
+# PCam ResNet50 head comparison
 
-Reproducibility materials for **A comparison of simulated quantum and classical classification heads on frozen ResNet50 features for PatchCamelyon**.
+I compare small simulated quantum and classical classification heads using the same frozen ResNet50 representation of PatchCamelyon images. The question is whether the tested circuit improves patch classification under an eight component constraint and a shared neural training schedule.
 
-**Author:** Saikat Das  
-Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Dhaka, Bangladesh  
-**Correspondence:** saikatdasmain47@gmail.com  
-**Repository:** https://github.com/saikatdas47/PCam-Quantum-Git
+**Saikat Das**  
+Department of Computer Science and Engineering  
+Ahsanullah University of Science and Technology, Dhaka, Bangladesh  
+Contact: saikatdasmain47@gmail.com
 
-This is a patch level classification study on the official PatchCamelyon splits. It is not a patient diagnosis system. A frozen ImageNet ResNet50 produces 2,048 features, reduced to eight training fitted PCA components. Standard and arctangent MLP heads, classically simulated RY circuits with CNOT off and on, and a training selected classical reference are compared. Neural fits use seeds 101, 202 and 303 under a shared schedule. The final executed scope is one backbone and eight components. Historical source protocols are provenance and do not replace the final SCOPE.json.
+## Read the folders in order
 
-The CNOT on head has mean test AUROC 0.8657 and the selected reference 0.8776. The primary difference is -0.011911, with conditional paired slide bootstrap 95% interval [-0.023594, -0.000379]. The separate post hoc jackknife p value is 0.052614. These are different uncertainty procedures. No quantum advantage, hardware validation, speedup or equivalence claim is supported.
-
-## Dataset
-
-Obtain the original images, labels and slide metadata from the [official PCam download page](https://github.com/basveeling/pcam#download). A [Zenodo mirror](https://zenodo.org/records/2546921) is listed by the maintainers. Use the original training, validation and test splits, with 262,144, 32,768 and 32,768 rows. The official README provides original MD5 checksums. PCam maintainers state that the dataset is CC0. Do not substitute the Kaggle training subset for the official splits.
-
-Raw images are not copied here. Optional raw image checks expect original HDF5 image and label files under data/raw using official filenames. Images may be extracted or gzipped. Label checks expect the original y.h5.gz files. The original train image gzip was absent in the supplied environment, limiting its provenance claim. A later pixel hash audit found 33 train/test identical image hashes affecting 34 test rows. The official primary analysis is retained and exclusion is a post hoc descriptive sensitivity check.
-
-## Contents
-
-| Location | Contents |
+| Folder | Contents |
 | --- | --- |
-| evidence_archive | Seven ordered archive parts and SHA256 index. They contain all 1,208 supplied evidence files, including the original 1,207 entry manifest |
-| resnet50_evidence after extraction | Original sources/configurations, IDs, transforms, CV records, model states, 26 prediction archives, bootstrap arrays, timing and test lock |
-| paper/major_revision/analysis | Circuit validation, evidence verification, reporting summaries and optional raw image audits |
-| paper/major_revision/results and tables | Executed checks, image hashes, selection/PCA records and tables |
-| paper/plos_one_initial/analysis | Saved prediction analysis and post hoc slide jackknife |
-| paper/plos_one_word | Current Word/Markdown manuscript, author details and figure/document builders |
-| paper/PLOS_ONE_submission/figures | Editable draw.io methodology and five figure exports, including 400 DPI TIFF |
+| [01_plan](01_plan) | Research question, final scope, comparisons and execution order |
+| [02_data](02_data) | Official dataset links, checksums and input instructions |
+| [03_methodology](03_methodology) | Method description and editable workflow diagram |
+| [04_code](04_code) | Training, analysis, verification and plotting code |
+| [05_results](05_results) | Selection tables, validation/test metrics and statistical records |
+| [06_figures](06_figures) | ROC, precision recall, paired contrasts and training/timing figures |
+| [07_evidence](07_evidence) | Original evidence archive, source checksums and environments |
 
-Raw images and complete frozen feature arrays are absent from the original export. Download or regenerate them for new training. Reconstructed initialization tensors are not archived original initial tensors. Fitted models, final transforms and measured predictions are retained.
+`08_workspace` holds extracted evidence, training outputs, logs and caches when code runs. It is excluded from Git. Downloaded images belong in `02_data/raw`, also excluded.
 
-## Reproduce without training
+## Check the saved study
+
+Run from the repository root:
 
 ```bash
 python -m pip install -r requirements-analysis.txt
-python reproduce.py
+python run.py verify
 ```
 
-The runner verifies archive checksums, safely extracts evidence, verifies all 1,207 original manifest entries, recomputes metrics for 26 prediction archives, validates circuit outputs/gradients and checks final scope, saved intervals, p values and 676 test lock hashes. It does not train or tune models. CPU is sufficient. PennyLane and JAX are not required.
+This verifies seven archive parts, extracts evidence, checks the original 1,207 manifest records, recomputes metrics for 26 prediction archives, validates the circuit and checks 676 test lock hashes. It does not fit models.
 
-For the additional saved prediction jackknife and reporting tables:
+## Repeat analysis and figures
 
 ```bash
-python reproduce.py --full-analysis
+python run.py analyze
+python run.py figures
 ```
 
-With the original dataset present, optional image checks are:
+Analysis reads saved predictions, transforms and training records. It reconstructs intervals from retained bootstrap arrays and recomputes slide jackknife, PCA/selection summaries and descriptive overlap sensitivity. It does not repeat the entire bootstrap experiment. Results go to `05_results` and figures to `06_figures`. Original evidence remains unchanged. Figures are PNG, PDF and 400 DPI RGB TIFF. Font availability may change rebuilt layouts.
+
+## Run training separately
+
+Read [04_code/training/README.md](04_code/training/README.md) first.
 
 ```bash
-python paper/major_revision/analysis/audit_images.py
-python paper/major_revision/analysis/overlap_sensitivity.py
+python 04_code/training/study.py --stage plan
+python 04_code/training/study.py --stage all
 ```
 
-These scripts update derived reports only. Original evidence and test thresholds remain unchanged. Repeating unpack_evidence.py verifies existing files and stops if any differ.
+Official data are required in `02_data/raw`. Training uses its own workspace, preserving the completed evidence. Individual stages can be run by name. Interrupted feature chunks and epochs resume through the retained checkpoint code. Completed stages are skipped. A changed source snapshot stops the run.
 
-## Environments and training
+Original head fitting used CPU float64 and two threads. Frozen feature extraction selects CUDA when available and falls back to CPU. Exact original versions are in `07_evidence/environments`. The stage entry point and plan have been checked. A new full dataset training run through this reorganized entry point has not been executed.
 
-Original and reporting environments and exact requirement snapshots are recorded separately under paper/major_revision/release. requirements-analysis.txt provides practical dependency ranges, not a promise of identical training on every version. Pickled scikit-learn models are version sensitive. Load trusted model states in the recorded environment when reproducing fitted model inference.
+## Main findings
 
-Original neural heads used CPU float64 and two PyTorch threads. Frozen feature extraction used recorded CPU/CUDA sessions. Unpacked experiments and shared sources preserve the executed implementation and guards. They are not a one command promise to retrain everything on an arbitrary runtime. The default runner validates saved evidence without repeating training. No independent investigator replication is claimed.
+CNOT on mean test AUROC is 0.8657 and selected classical AUROC is 0.8776. The difference is -0.011911, with conditional paired slide bootstrap 95% interval [-0.023594, -0.000379]. The separate post hoc jackknife gives p=0.052614. These are different procedures, so exclusion of zero is method dependent. Adjusted secondary intervals include zero.
 
-## Manuscript and release
+The scope is one dataset, one frozen backbone, eight PCA components and three neural seeds. PCA retains 58.8005% of training variance. A later audit found 33 identical train/test image hashes affecting 34 test rows. The original primary analysis is retained. Overlap exclusion is descriptive. Patient independence, quantum speedup, hardware performance and clinical readiness are not established.
 
-The current manuscript has five figures, eleven tables and twenty five references. The availability paragraph gives the intended repository URL and accurately notes pending upload. Replace that pending statement only after the complete release is publicly accessible. No publication DOI has been assigned.
+## Dataset and provenance
 
-Funding: no specific funding. Competing interests: none declared. Saikat Das is the sole author. Methods briefly discloses AI assistance with code and language work. The author retains responsibility.
+Dataset: https://github.com/basveeling/pcam#download  
+Mirror listed by maintainers: https://zenodo.org/records/2546921
 
-Version 0.3.0 is prepared locally. Preparation does not constitute a GitHub upload or DOI deposit. All archive parts are required for extraction. Extracted evidence is ignored by Git because its exact bytes are stored in the verified archive. Raw images, credentials, dependency directories and caches must not be uploaded. Third party terms are described in THIRD_PARTY_NOTICES.md. A new project wide reuse license has not been assigned by this packaging step. Code and derived evidence licensing should be selected by the author before journal deposition.
+Keep the official splits. Raw images and complete frozen feature arrays are not in the original evidence export. The final reduced scope is recorded in `01_plan/final_scope.json`. Older protocols are provenance, not the final executed schedule. See [07_evidence/PROVENANCE.md](07_evidence/PROVENANCE.md) for source terms and limitations.

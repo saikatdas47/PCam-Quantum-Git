@@ -1,0 +1,117 @@
+{
+  "stage": "test",
+  "rows": 32768,
+  "WSI_clusters": 129,
+  "draws": 20000,
+  "primary": {
+    "id": "on-selected",
+    "delta": -0.01191113734113336,
+    "conditional95": [
+      -0.0235935701389308,
+      -0.00037904222262289864
+    ],
+    "family95": [
+      -0.0235935701389308,
+      -0.00037904222262289864
+    ],
+    "left_tags": [
+      "resnet50_q8_ry_on_101",
+      "resnet50_q8_ry_on_202",
+      "resnet50_q8_ry_on_303"
+    ],
+    "right_tags": [
+      "resnet50_selected_classical"
+    ]
+  },
+  "secondary": [
+    {
+      "id": "on-off",
+      "delta": -0.008475005931936064,
+      "conditional95": [
+        -0.01699048588991585,
+        -0.0006282476256412125
+      ],
+      "family95": [
+        -0.019470188672740606,
+        0.0014267583138591177
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_ry_off_101",
+        "resnet50_q8_ry_off_202",
+        "resnet50_q8_ry_off_303"
+      ]
+    },
+    {
+      "id": "on-atan",
+      "delta": -0.007233385075265719,
+      "conditional95": [
+        -0.025643909687135893,
+        0.014326862823166092
+      ],
+      "family95": [
+        -0.029973022944318254,
+        0.02218328858377318
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_atan_101",
+        "resnet50_q8_mlp_atan_202",
+        "resnet50_q8_mlp_atan_303"
+      ]
+    },
+    {
+      "id": "on-standard",
+      "delta": -0.010746965283905396,
+      "conditional95": [
+        -0.028908616698777312,
+        0.010240243351624817
+      ],
+      "family95": [
+        -0.033097516024879536,
+        0.017242464756585398
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_standard_101",
+        "resnet50_q8_mlp_standard_202",
+        "resnet50_q8_mlp_standard_303"
+      ]
+    },
+    {
+      "id": "atan-standard",
+      "delta": -0.0035135802086396772,
+      "conditional95": [
+        -0.006798170508430346,
+        -0.0003523657577334972
+      ],
+      "family95": [
+        -0.007650328185840243,
+        0.0005999394985436167
+      ],
+      "left_tags": [
+        "resnet50_q8_mlp_atan_101",
+        "resnet50_q8_mlp_atan_202",
+        "resnet50_q8_mlp_atan_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_standard_101",
+        "resnet50_q8_mlp_standard_202",
+        "resnet50_q8_mlp_standard_303"
+      ]
+    }
+  ],
+  "uncertainty": "Paired slide bootstrap conditional on fitted models, settings, training sample and retained seeds. Not patient-level inference or an equivalence test."
+}

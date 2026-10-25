@@ -1,0 +1,22 @@
+{
+  "experiments/experiment_009_native_torch_full_pcam/scripts/run.py": "c3fba2488b958a19f96a74bf9c92e812f3efcb65f63f795a39dfd023746f337c",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/models.py": "7230fa9312a37cae74ac080064f5eb20da433950de3acbf659643593879ff4b3",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/portable_runtime.py": "238410614f9b10fa66a7d57ef68b4fd450632ec1929f4823b99175b1e00f5996",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/torch_circuit.py": "eb68af1826f5734252937c310973e8efc0244298f97549003279307979cf3d75",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/backbone_preflight.py": "e7baa8afda157e1faa00cedbe1999229fb7ea450dfd53128e64f02aaace8e6f7",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/torch_training.py": "1396d791eb18edcf7f0328259548b3cb4a5786d80a1abba269dd0b8b6c1e6c81",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/common.py": "e6736cc9e1fc3452fa2206027d2dc05638a9e1fc54657efda099fe795e76380e",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/torch_backbones.py": "c3246b9eff6a7d56a1a5986e70e0d67357fbdaaa5879ec5596a8d4d3cf122ac0",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/extract.py": "25e891f534554146522173d04489d0124a957c4e03cb6d45f8f44c404d2f864b",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/prepare.py": "a7ee77d9470f41af1a9a29498f41d2c50bd3ed3674cd8d4e82424f6b792d760e",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/analyze.py": "84328fada9700ada398b0b0e30dfc8de504f80b2ebf5905eb929556cb5dba058",
+  "experiments/experiment_009_native_torch_full_pcam/scripts/preflight.py": "da4a712aa8144ce697ec0df01d2583337c68ad55d96e571295d0a8a26c478bf3",
+  "experiments/experiment_009_native_torch_full_pcam/configs/protocol.json": "eab082fea32af365cb3e5bb5fed3467c798e350f4618d0124fec49937c9fbf10",
+  "experiments/experiment_009_native_torch_full_pcam/configs/portability_legacy_sources.json": "744e35edb3f71581073f181bbfef8d2e6a25f7bc53cf24e8558ea6760cf51854",
+  "experiments/experiment_009_native_torch_full_pcam/configs/weights.json": "f5eecbe053957a1145ed1f6d17f92dcf4b63bc598042f26371f98ae95a4b6f8b",
+  "experiments/experiment_009_native_torch_full_pcam/configs/backbone_fixtures.npz": "ad4cdf13aa052c7fe618ecb5477295b33d7abb5f3d11ec3f3154b94836bb255c",
+  "shared/tools/native_portability_deploy.py": "7697b68455229f8e23ae69fe32b60bd1daea5bc929c7c1f8199025ac749eec13",
+  "shared/models/fourier_kernel.py": "aa02a17f50da1d6df737ce22bf9e33d37924a5a65545b996dda41e05040503fb",
+  "shared/data_audit/results/audit.json": "9a50e3368b992fcee0fb6b261966be692270fc68a2a6312eb3e9d92e0a7cb597",
+  "features/local_pilot_deit_tiny/identity.json": "fb25699c62e0748be9c13f486b7a98b3b391845609879970c4da42a0f89d900a"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "head": "mlp_standard",
+    "fits": 3,
+    "AUROC_mean": 0.8764576909930515,
+    "AUROC_seed_SD": 0.0016209861474382507,
+    "seconds_mean": 268.64718700599843,
+    "timer_scope": "Common neural training compute"
+  },
+  {
+    "head": "mlp_atan",
+    "fits": 3,
+    "AUROC_mean": 0.8729441107844118,
+    "AUROC_seed_SD": 0.0015098528834144192,
+    "seconds_mean": 266.629959617665,
+    "timer_scope": "Common neural training compute"
+  },
+  {
+    "head": "ry_off",
+    "fits": 3,
+    "AUROC_mean": 0.8741857316410822,
+    "AUROC_seed_SD": 0.0012049363797156489,
+    "seconds_mean": 5447.125567544334,
+    "timer_scope": "Common neural training compute"
+  },
+  {
+    "head": "ry_on",
+    "fits": 3,
+    "AUROC_mean": 0.8657107257091461,
+    "AUROC_seed_SD": 0.0019699752745342075,
+    "seconds_mean": 7374.696225766335,
+    "timer_scope": "Common neural training compute"
+  },
+  {
+    "head": "selected_classical",
+    "fits": 1,
+    "AUROC_mean": 0.8776218630502794,
+    "AUROC_seed_SD": null,
+    "seconds_mean": 31.57178818600005,
+    "timer_scope": "Classical fit including feature-map fit"
+  }
+]

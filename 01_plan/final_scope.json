@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "backbone": "resnet50",
+  "dimensions": [
+    8
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "heads": [
+    "mlp_standard",
+    "mlp_atan",
+    "ry_off",
+    "ry_on"
+  ],
+  "selection": "Finish original three training-only WSI folds and candidates. Preserve original common LR selection.",
+  "primary": "Mean seed AUROC: CNOT-on8 minus training-selected classical reference",
+  "secondary": [
+    "on-off",
+    "on-atan",
+    "on-standard",
+    "atan-standard"
+  ],
+  "timing": "Original common training-compute seconds from final fits. No extra timing fits.",
+  "scope_reason": "User-approved resource reduction before official test, based on available saved work, not model performance.",
+  "known_limits": [
+    "One dataset and one frozen representation",
+    "Classically simulated circuits; no hardware quantum speedup",
+    "Conditional WSI uncertainty, not patient independence or retraining uncertainty",
+    "Fixed budget is not proof of global convergence"
+  ]
+}

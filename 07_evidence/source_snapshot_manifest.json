@@ -1,0 +1,110 @@
+[
+  {
+    "path": "experiments/experiment_011_train_resnet50/configs/legacy_feature_sources.json",
+    "sha256": "818a9c3de364eb5d8b384852b2a821fd5cb6428bf9cad91e82a57b3cb2018a9f"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/configs/weights.json",
+    "sha256": "f5eecbe053957a1145ed1f6d17f92dcf4b63bc598042f26371f98ae95a4b6f8b"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/configs/backbone_fixtures.npz",
+    "sha256": "ad4cdf13aa052c7fe618ecb5477295b33d7abb5f3d11ec3f3154b94836bb255c"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/configs/protocol.json",
+    "sha256": "9bbed8cabc90873c6e3dc0b9ba4fd1f1f1222311965ea7907b632cb7fc103299"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/run.py",
+    "sha256": "58044a07c1118eff249ec8fe7653d2651c104b9ced86ea87d9bfc0245e96a145"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/models.py",
+    "sha256": "42e066cc3e92fa4224e6eed76ac657e309da9a6555459f8ea99fbbce6feb8882"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/portable_runtime.py",
+    "sha256": "238410614f9b10fa66a7d57ef68b4fd450632ec1929f4823b99175b1e00f5996"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/torch_circuit.py",
+    "sha256": "eb68af1826f5734252937c310973e8efc0244298f97549003279307979cf3d75"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/backbone_preflight.py",
+    "sha256": "44292fe703d36182b81b35c00f3ef37a4c626173e28447f2e00bc259e3e29ae0"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/torch_training.py",
+    "sha256": "1396d791eb18edcf7f0328259548b3cb4a5786d80a1abba269dd0b8b6c1e6c81"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/export_evidence.py",
+    "sha256": "e187201b395a2154566aec02d31d0abe0e433f559e0164a1aef98a78d35d073b"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/common.py",
+    "sha256": "9823452af069a6a0e20f4591e82ed414439b6b04b142dc733cfc835926e13e3d"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/torch_backbones.py",
+    "sha256": "c3246b9eff6a7d56a1a5986e70e0d67357fbdaaa5879ec5596a8d4d3cf122ac0"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/finish_training.py",
+    "sha256": "0f5cb7bd4d4e1150ae6b4c554fd3a46dd9945c0b995a7f4ad3e5553d3bd3d512"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/extract.py",
+    "sha256": "da14aa2e3fb0d0f9ccf87be296c535e058e7be96431a001401b5e7ecd5d47067"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/prepare.py",
+    "sha256": "a7ee77d9470f41af1a9a29498f41d2c50bd3ed3674cd8d4e82424f6b792d760e"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/reuse_features.py",
+    "sha256": "db9132501f4e5fd9efbafbc782dcf50a481e27e32d433f37e9fba387ce363a9a"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/analyze.py",
+    "sha256": "a6707b9cbab97ef632e04591ac1877a07fa2c9bb02b5458d0b33446d67bd9714"
+  },
+  {
+    "path": "experiments/experiment_011_train_resnet50/scripts/preflight.py",
+    "sha256": "da4a712aa8144ce697ec0df01d2583337c68ad55d96e571295d0a8a26c478bf3"
+  },
+  {
+    "path": "shared/tools/resnet_finish_study.py",
+    "sha256": "4033a4f625f49657c2f10cbfe65c535b8aaa8caa3785c96a6373f42f2ad28ac6"
+  },
+  {
+    "path": "shared/tools/resnet_prediction_replay.py",
+    "sha256": "0dd75c70bf7f57d5f6258ab956da28bdfc4b962117490f498aa8abe66f6f3391"
+  },
+  {
+    "path": "shared/tools/stepwise_patch_compat.py",
+    "sha256": "2a784e4c0f2e18bfdc098564407c5f12852b7d2030da00b80b0ef29745fdcb5f"
+  },
+  {
+    "path": "shared/tools/resnet_cv_resume.py",
+    "sha256": "ef00c61b0d99eb54e2b088e1f19e39bd54f5faf1ec28dc28dc96e4f5db20a73b"
+  },
+  {
+    "path": "shared/tools/resnet_input_cache.py",
+    "sha256": "0107d201d61ffe9c131c6589bab04ee47ec81cf8ab25c2eaff1c5d00a77bc0c2"
+  },
+  {
+    "path": "shared/models/fourier_kernel.py",
+    "sha256": "aa02a17f50da1d6df737ce22bf9e33d37924a5a65545b996dda41e05040503fb"
+  },
+  {
+    "path": "shared/data_audit/results/audit.json",
+    "sha256": "9a50e3368b992fcee0fb6b261966be692270fc68a2a6312eb3e9d92e0a7cb597"
+  },
+  {
+    "path": "features/local_pilot_deit_tiny/identity.json",
+    "sha256": "fb25699c62e0748be9c13f486b7a98b3b391845609879970c4da42a0f89d900a"
+  }
+]

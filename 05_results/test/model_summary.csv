@@ -1,0 +1,6 @@
+head,fits,AUROC_mean,AUROC_seed_SD,seconds_mean,timer_scope
+mlp_standard,3,0.8764576909930515,0.0016209861474382507,268.64718700599843,Common neural training compute
+mlp_atan,3,0.8729441107844118,0.0015098528834144192,266.629959617665,Common neural training compute
+ry_off,3,0.8741857316410822,0.0012049363797156489,5447.125567544334,Common neural training compute
+ry_on,3,0.8657107257091461,0.0019699752745342075,7374.696225766335,Common neural training compute
+selected_classical,1,0.8776218630502794,,31.57178818600005,Classical fit including feature-map fit

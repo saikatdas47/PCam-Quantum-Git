@@ -9,7 +9,6 @@ venv/
 .cache/
 .matplotlib/
 **/.matplotlib/
-resnet50_evidence/
-data/raw/
-features/
+08_workspace/
+02_data/raw/
 *.unpacking

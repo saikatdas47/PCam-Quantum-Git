@@ -1,0 +1,20 @@
+{
+  "deit_tiny_patch16_224.fb_in1k": {
+    "revision": "80e968688553f219e4a86f940ed945a23709c16f",
+    "file_sha256": "5efe4ac9543f5fc5e1e3443ef52b8f39c7e579ca9c031f62ac8d3aa184b21f6c",
+    "bytes": 22925741,
+    "feature_state_sha256": "9a4e7cc392920096d1bf1be91854437b389ed01fb3f45ad9cb63ea60d616a530"
+  },
+  "resnet50.tv_in1k": {
+    "revision": "78f3ecfdb38e06d9b8397f662e7ab8fee96026fa",
+    "file_sha256": "065b941a162ea3d2ef6b4b5c3f13b8ccdf8b761496d2ee334ad9b09cbca3c4f8",
+    "bytes": 102545229,
+    "feature_state_sha256": "5aa23ec5990bd5a0e87f10b8d235217d3a8a3ba55d1bb0284a47aeb006bc911a"
+  },
+  "efficientnet_b0.ra_in1k": {
+    "revision": "1b5383e5f79cc0f7fc067e372f8f26a5fa73f26a",
+    "file_sha256": "52487d0cd13681cf2ae61fdae3c913f45c1d4967e69432a2065da4695ae343fd",
+    "bytes": 21441905,
+    "feature_state_sha256": "89bea5bb0e2546fa4164405a072e6508d5f84b9bd67844a998b9dbb29c7e0501"
+  }
+}

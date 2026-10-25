@@ -1,0 +1,132 @@
+[
+  {
+    "tag": "resnet50_q8_mlp_atan_101",
+    "AUROC": 0.871200802508143,
+    "AP": 0.872620812039228,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_mlp_atan_202",
+    "AUROC": 0.8737980753783349,
+    "AP": 0.8769954245501737,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_mlp_atan_303",
+    "AUROC": 0.8738334544667575,
+    "AP": 0.8756459128253824,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_mlp_standard_101",
+    "AUROC": 0.8772159180923551,
+    "AP": 0.8791465335783958,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_mlp_standard_202",
+    "AUROC": 0.8775606080907203,
+    "AP": 0.8792135180815547,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_mlp_standard_303",
+    "AUROC": 0.8745965467960789,
+    "AP": 0.8769756401070952,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_off_101",
+    "AUROC": 0.8749969261692814,
+    "AP": 0.8674220898569087,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_off_202",
+    "AUROC": 0.8747590849667607,
+    "AP": 0.8680039402310282,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_off_303",
+    "AUROC": 0.8728011837872044,
+    "AP": 0.8657285194226402,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_on_101",
+    "AUROC": 0.8634452645064069,
+    "AP": 0.8624699526975678,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_on_202",
+    "AUROC": 0.8666657860078792,
+    "AP": 0.8642329986609772,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_q8_ry_on_303",
+    "AUROC": 0.867021126613152,
+    "AP": 0.8679393772241248,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  },
+  {
+    "tag": "resnet50_selected_classical",
+    "AUROC": 0.8776218630502794,
+    "AP": 0.8742802494153226,
+    "positive": 16377,
+    "negative": 16391,
+    "unique_scores": 29383,
+    "roc_verified": true,
+    "pr_verified": true
+  }
+]

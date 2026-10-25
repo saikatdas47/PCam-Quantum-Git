@@ -1,7 +1,0 @@
-{
-  "python": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.6.3.2)]",
-  "numpy": "1.26.4",
-  "scipy": "1.14.1",
-  "scikit_learn": "1.7.2",
-  "scope": "Local manuscript reanalysis, not original Colab runtime"
-}
