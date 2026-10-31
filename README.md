@@ -1,3 +1,5 @@
+> Availability: The analysis code, summaries, bootstrap arrays, audits and current figures are public. The complete model/per-patch evidence archive is prepared locally; public asset upload is pending explicit author approval. Download commands below apply once the assets are deposited.
+
 # Representation and optimization in PCam head comparisons
 
 I compare small simulated quantum and classical classification heads using the same frozen ResNet50 representation of PatchCamelyon images. The original question is whether the tested circuit improves patch classification under an eight component constraint and a shared neural training schedule. Subsequent post hoc analyses quantify compression and finite learning-rate sensitivity. They do not change the original locked models or inferential result.

@@ -1,3 +1,5 @@
+> Availability: The analysis code, summaries, bootstrap arrays, audits and current figures are public. The complete model/per-patch evidence archive is prepared locally; public asset upload is pending explicit author approval. Download commands below apply once the assets are deposited.
+
 # Compression and paired learning-rate analyses
 
 These analyses were planned after the original official-test results were inspected. They remain post hoc. Existing training-only CV selects rates and regularization; it does not make the sensitivity analyses confirmatory.

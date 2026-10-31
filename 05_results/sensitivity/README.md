@@ -1,3 +1,5 @@
+> Availability: The analysis code, summaries, bootstrap arrays, audits and current figures are public. The complete model/per-patch evidence archive is prepared locally; public asset upload is pending explicit author approval. Download commands below apply once the assets are deposited.
+
 # Post hoc sensitivity results
 
 Compression logistic test AUROC at 8/32/128/2048 dimensions is 0.869531/0.902468/0.909897/0.910823. The 2048-minus-8 difference is 0.041292, with conditional 95% WSI interval [0.022349, 0.059071]. Adjusted 32-minus-8 and 128-minus-8 intervals also exclude zero. No 128-versus-2048 equivalence claim is made.
