@@ -6,8 +6,18 @@ import argparse,hashlib,json,os,shutil,subprocess,sys,zipfile
 ROOT=Path(__file__).resolve().parent
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('command',choices=['verify','analyze','models','figures'])
-parser.add_argument('--evidence-zip',type=Path,required=True)
-a=parser.parse_args();asset=a.evidence_zip.resolve();index=json.loads((ROOT/'07_evidence/sensitivity_release.json').read_text())
+group=parser.add_mutually_exclusive_group(required=True)
+group.add_argument('--evidence-zip',type=Path)
+group.add_argument('--parts-dir',type=Path,help='Folder containing all release .part files')
+a=parser.parse_args();index=json.loads((ROOT/'07_evidence/sensitivity_release.json').read_text())
+if a.parts_dir:
+ folder=a.parts_dir.resolve();asset=folder/index['asset'];tmp=asset.with_suffix('.reconstructing')
+ with tmp.open('wb') as out:
+  for part in index['parts']:
+   p=folder/part['name'];data=p.read_bytes();assert len(data)==part['bytes'] and hashlib.sha256(data).hexdigest()==part['sha256'],p
+   out.write(data)
+ assert hashlib.sha256(tmp.read_bytes()).hexdigest()==index['sha256'];tmp.replace(asset)
+else:asset=a.evidence_zip.resolve()
 assert asset.is_file(),'Download the release evidence ZIP first.'
 assert hashlib.sha256(asset.read_bytes()).hexdigest()==index['sha256'],'Release asset checksum mismatch'
 work=ROOT/'08_workspace/sensitivity_project';work.mkdir(parents=True,exist_ok=True)

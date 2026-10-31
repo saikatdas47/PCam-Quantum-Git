@@ -2,10 +2,10 @@
 
 These analyses were planned after the original official-test results were inspected. They remain post hoc. Existing training-only CV selects rates and regularization; it does not make the sensitivity analyses confirmatory.
 
-Download `pcam_sensitivity_evidence.zip` from the `analysis-2026-10-31` GitHub release. From the repository root:
+Download all eight `pcam_sensitivity_evidence.zip.partNNN` files from the `analysis-2026-10-31` GitHub release into one folder. The runner verifies each part and reconstructs the exact original ZIP with `--parts-dir /path/to/folder`. An already reconstructed ZIP is also accepted with `--evidence-zip`. From the repository root:
 
 ```
-python run_sensitivity.py verify --evidence-zip /path/to/pcam_sensitivity_evidence.zip
+python run_sensitivity.py verify --parts-dir /path/to/downloaded_parts
 python run_sensitivity.py analyze --evidence-zip /path/to/pcam_sensitivity_evidence.zip
 python run_sensitivity.py models --evidence-zip /path/to/pcam_sensitivity_evidence.zip
 python run_sensitivity.py figures --evidence-zip /path/to/pcam_sensitivity_evidence.zip

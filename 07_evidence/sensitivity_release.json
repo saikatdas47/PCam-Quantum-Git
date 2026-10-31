@@ -7,5 +7,48 @@
   "release_url": "https://github.com/saikatdas47/PCam-Quantum-Git/releases/tag/analysis-2026-10-31",
   "source_manifest_sha256": "e91ff097ea8e757af241daa7874ac7d97dfd826215d5b390b2d75dc69bc88494",
   "contains_raw_images": false,
-  "contains_full_2048_feature_cache": false
+  "contains_full_2048_feature_cache": false,
+  "parts": [
+    {
+      "name": "pcam_sensitivity_evidence.zip.part001",
+      "bytes": 20971520,
+      "sha256": "42d86821ad923d6ee8db13515fae5fee7a61f94d15cb8d2518e2e987458de0ae"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part002",
+      "bytes": 20971520,
+      "sha256": "6fcd0f1c81cdb8fe98da6e44eea37b0c834f6018174007cc0a7e82c997355021"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part003",
+      "bytes": 20971520,
+      "sha256": "532ca63354a71b808780789d6f510de0275ae798376fb08a04ddc2cde3e2a1a6"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part004",
+      "bytes": 20971520,
+      "sha256": "85dff916b8b92668d9a570918cc9ce2758196b3780f7694d300d77b6f8e04840"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part005",
+      "bytes": 20971520,
+      "sha256": "ba22cb440414a8b32a59cb7137cf0523f91157a590e2f11b5bc7e2a9f7761046"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part006",
+      "bytes": 20971520,
+      "sha256": "66a6c20c9b5f580e07a26c05d9c1b3d1254c78501f14929afb0a9c3abca2be85"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part007",
+      "bytes": 20971520,
+      "sha256": "f17428b0fce860a81fb39dc013cb35beef4a2877fad964b08b29b2b4d706a1e0"
+    },
+    {
+      "name": "pcam_sensitivity_evidence.zip.part008",
+      "bytes": 14987481,
+      "sha256": "4e63e3d9ac614b4a1a187403056b48517608256d94ef9447113c5f4236b7161d"
+    }
+  ],
+  "reconstruction": "Concatenate parts in ascending numeric order to obtain pcam_sensitivity_evidence.zip, then verify the full SHA256."
 }
