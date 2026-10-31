@@ -1,0 +1,1012 @@
+[
+  {
+    "head": "mlp_atan",
+    "seed": 101,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 339.4793933520141,
+    "updates": 204800,
+    "milliseconds_per_update": 1.6576142253516313,
+    "final_diagnostic_BCE": 0.36990921794869147,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T08:04:00Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_atan",
+    "seed": 101,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 280.06810551695526,
+    "updates": 204800,
+    "milliseconds_per_update": 1.367520046469508,
+    "final_diagnostic_BCE": 0.3714260994070563,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T08:04:00Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_atan",
+    "seed": 202,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 364.17256990598617,
+    "updates": 204800,
+    "milliseconds_per_update": 1.7781863764940733,
+    "final_diagnostic_BCE": 0.3674291004356246,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T08:49:36Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_atan",
+    "seed": 202,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 306.9254486969985,
+    "updates": 204800,
+    "milliseconds_per_update": 1.4986594174658132,
+    "final_diagnostic_BCE": 0.3689231904047283,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T08:49:36Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_atan",
+    "seed": 303,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 363.04417353013736,
+    "updates": 204800,
+    "milliseconds_per_update": 1.7726766285651236,
+    "final_diagnostic_BCE": 0.3650867940114267,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T10:19:59Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-28T13:07:05Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 98,
+        "start_offset": 122880
+      }
+    ]
+  },
+  {
+    "head": "mlp_atan",
+    "seed": 303,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 302.2281402979627,
+    "updates": 204800,
+    "milliseconds_per_update": 1.475723341298646,
+    "final_diagnostic_BCE": 0.3695967944524537,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T10:19:59Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-28T13:07:05Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 98,
+        "start_offset": 122880
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 101,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 337.75594391999766,
+    "updates": 204800,
+    "milliseconds_per_update": 1.6491989449218636,
+    "final_diagnostic_BCE": 0.35217657569155336,
+    "segments": [
+      {
+        "time_utc": "2026-10-25T19:07:07Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-26T07:49:03Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 8,
+        "start_offset": 61440
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 101,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 292.49494885798504,
+    "updates": 204800,
+    "milliseconds_per_update": 1.42819799247063,
+    "final_diagnostic_BCE": 0.3572784376183112,
+    "segments": [
+      {
+        "time_utc": "2026-10-25T19:07:07Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-26T07:49:03Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 8,
+        "start_offset": 61440
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 202,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 357.4410811710068,
+    "updates": 204800,
+    "milliseconds_per_update": 1.7453177791553065,
+    "final_diagnostic_BCE": 0.3523514512907739,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T08:31:29Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 202,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 308.99856945603096,
+    "updates": 204800,
+    "milliseconds_per_update": 1.5087820774220262,
+    "final_diagnostic_BCE": 0.34784751900389693,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T08:31:29Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 303,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 354.9748945578358,
+    "updates": 204800,
+    "milliseconds_per_update": 1.7332758523331824,
+    "final_diagnostic_BCE": 0.35026145909696327,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T10:02:32Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "mlp_standard",
+    "seed": 303,
+    "schedule": "tuned",
+    "lr": 0.001,
+    "compute_seconds": 299.63219089702034,
+    "updates": 204800,
+    "milliseconds_per_update": 1.4630478071143571,
+    "final_diagnostic_BCE": 0.3499786839185702,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T10:02:32Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 101,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 4128.322122504977,
+    "updates": 204800,
+    "milliseconds_per_update": 20.157822863793836,
+    "final_diagnostic_BCE": 0.44271933540664554,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T08:21:05Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-26T12:04:12Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 40,
+        "start_offset": 110592
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 101,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 4080.440996447006,
+    "updates": 204800,
+    "milliseconds_per_update": 19.924028302963894,
+    "final_diagnostic_BCE": 0.4397294034365088,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T08:21:05Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-26T12:04:12Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 40,
+        "start_offset": 110592
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 202,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 6052.667719685013,
+    "updates": 204800,
+    "milliseconds_per_update": 29.55404160002448,
+    "final_diagnostic_BCE": 0.4385130280091235,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T09:07:49Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-27T11:03:19Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 12,
+        "start_offset": 73728
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 202,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 6027.352612395021,
+    "updates": 204800,
+    "milliseconds_per_update": 29.430432677710066,
+    "final_diagnostic_BCE": 0.4383768108435832,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T09:07:49Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-27T11:03:19Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 12,
+        "start_offset": 73728
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 303,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 3201.476810502005,
+    "updates": 204800,
+    "milliseconds_per_update": 15.63221098877932,
+    "final_diagnostic_BCE": 0.44025874789237934,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T13:07:22Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "ry_off",
+    "seed": 303,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 3127.9537770499855,
+    "updates": 204800,
+    "milliseconds_per_update": 15.273211802001883,
+    "final_diagnostic_BCE": 0.4411924359321774,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T13:07:22Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 101,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 8093.841762649969,
+    "updates": 204800,
+    "milliseconds_per_update": 39.520711731689296,
+    "final_diagnostic_BCE": 0.46017579112545737,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T14:04:13Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-27T06:38:24Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 61,
+        "start_offset": 110592
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 101,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 8026.314611473045,
+    "updates": 204800,
+    "milliseconds_per_update": 39.19098931383323,
+    "final_diagnostic_BCE": 0.4597369763124674,
+    "segments": [
+      {
+        "time_utc": "2026-10-26T14:04:13Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-27T06:38:24Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 61,
+        "start_offset": 110592
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 202,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 7879.633603052982,
+    "updates": 204800,
+    "milliseconds_per_update": 38.47477345240714,
+    "final_diagnostic_BCE": 0.4572604792825361,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T14:18:29Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-28T06:47:51Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 31,
+        "start_offset": 221184
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 202,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 7898.759938383067,
+    "updates": 204800,
+    "milliseconds_per_update": 38.56816376163607,
+    "final_diagnostic_BCE": 0.4601213098243734,
+    "segments": [
+      {
+        "time_utc": "2026-10-27T14:18:29Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-28T06:47:51Z",
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 31,
+        "start_offset": 221184
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 303,
+    "schedule": "shared",
+    "lr": 0.003,
+    "compute_seconds": 3870.6700102429977,
+    "updates": 204800,
+    "milliseconds_per_update": 18.899755909389636,
+    "final_diagnostic_BCE": 0.438237513470054,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T14:58:56Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-29T19:35:49Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 78,
+        "start_offset": 4096
+      }
+    ]
+  },
+  {
+    "head": "ry_on",
+    "seed": 303,
+    "schedule": "tuned",
+    "lr": 0.01,
+    "compute_seconds": 3799.7159525179945,
+    "updates": 204800,
+    "milliseconds_per_update": 18.55330054940427,
+    "final_diagnostic_BCE": 0.4421238250986499,
+    "segments": [
+      {
+        "time_utc": "2026-10-28T14:58:56Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 0,
+        "start_offset": 0
+      },
+      {
+        "time_utc": "2026-10-29T19:35:49Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "device": "cuda",
+        "gpu": "Tesla T4",
+        "versions": {
+          "torch": "2.11.0+cu130",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false,
+        "start_epoch": 78,
+        "start_offset": 4096
+      }
+    ]
+  }
+]

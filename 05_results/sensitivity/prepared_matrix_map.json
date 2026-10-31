@@ -1,0 +1,12 @@
+{
+  "valid_original_8": "ceeb3aea0f7c5e8347f24741",
+  "valid_compression_8": "c1c66d65c5adcf8f82778be3",
+  "valid_compression_32": "2c56a4d4fe87ccf57dc3a187",
+  "valid_compression_128": "3dd897a2d530897c32beb7cf",
+  "valid_compression_2048": "a0cabf372671b37004d993ab",
+  "test_original_8": "07445ccb93fdf24660eacd31",
+  "test_compression_8": "b8c6aa28a0861cafc43ebeb7",
+  "test_compression_32": "1cd3a0e954db55c82ebf1681",
+  "test_compression_128": "8535fb96ef4d7977151e110a",
+  "test_compression_2048": "f170cb79cc9aa7407bad3f99"
+}

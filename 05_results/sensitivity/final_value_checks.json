@@ -1,0 +1,16 @@
+{
+  "validation_thresholds_independently_reselected": 28,
+  "original_test_AUROCs_recomputed": 13,
+  "original_contrasts_verified": 5,
+  "main_tables_verified": 5,
+  "supporting_tables_verified": 16,
+  "table_cells_containing_digits": 920,
+  "original_supporting_payloads_unchanged": 7,
+  "original_main_contrast_payloads_unchanged": 2,
+  "methodology_images": 0,
+  "title_paragraph_borders": 0,
+  "limits": [
+    "Table ledger checks supplement source-level recalculation; they do not prove absence of every manuscript error",
+    "Historic complete image scan and selected external full-text/code audits were not newly repeated"
+  ]
+}

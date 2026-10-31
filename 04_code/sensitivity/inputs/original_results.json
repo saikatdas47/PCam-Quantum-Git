@@ -1,0 +1,289 @@
+{
+  "splits": {
+    "train": {
+      "rows": 262144,
+      "positives": 131072,
+      "negatives": 131072,
+      "slides": 216,
+      "unique_images": 220025
+    },
+    "valid": {
+      "rows": 32768,
+      "positives": 16369,
+      "negatives": 16399,
+      "slides": 54,
+      "unique_images": 28108
+    },
+    "test": {
+      "rows": 32768,
+      "positives": 16377,
+      "negatives": 16391,
+      "slides": 129,
+      "unique_images": null
+    }
+  },
+  "roles": {
+    "selection_rows": 16384,
+    "calibration_rows": 17090,
+    "validation_analysis_rows": 15678
+  },
+  "model_summary": [
+    {
+      "head": "mlp_standard",
+      "fits": 3,
+      "AUROC_CI_low": 0.8457533261890912,
+      "AUROC_CI_high": 0.9054849168803665,
+      "AUROC_mean": 0.8764576909930515,
+      "AUROC_seed_SD": 0.0016209861474382507,
+      "AP_mean": 0.8784452305890152,
+      "AP_seed_SD": 0.0012731433027465327,
+      "accuracy_mean": 0.7860310872395834,
+      "accuracy_seed_SD": 0.004378643278675764,
+      "sensitivity_mean": 0.7227412427998616,
+      "sensitivity_seed_SD": 0.022985023762223857,
+      "specificity_mean": 0.849266874097574,
+      "specificity_seed_SD": 0.015645154445218648,
+      "precision_mean": 0.8276047026614943,
+      "precision_seed_SD": 0.010345836667860694,
+      "F1_mean": 0.7713809275926673,
+      "F1_seed_SD": 0.009022968110276015,
+      "Brier_mean": 0.1522655086997727,
+      "Brier_seed_SD": 0.0014689850493783663,
+      "log_loss_mean": 0.47240556704741515,
+      "log_loss_seed_SD": 0.005214500454515665
+    },
+    {
+      "head": "mlp_atan",
+      "fits": 3,
+      "AUROC_CI_low": 0.8407187074720885,
+      "AUROC_CI_high": 0.9031522260693354,
+      "AUROC_mean": 0.8729441107844118,
+      "AUROC_seed_SD": 0.0015098528834144192,
+      "AP_mean": 0.8750873831382613,
+      "AP_seed_SD": 0.002240150712290833,
+      "accuracy_mean": 0.78533935546875,
+      "accuracy_seed_SD": 0.003766047196839031,
+      "sensitivity_mean": 0.7286234760131078,
+      "sensitivity_seed_SD": 0.02527864231038568,
+      "specificity_mean": 0.8420067923453928,
+      "specificity_seed_SD": 0.01776038785839863,
+      "precision_mean": 0.8220492239955356,
+      "precision_seed_SD": 0.011502681326398494,
+      "F1_mean": 0.7722173265893244,
+      "F1_seed_SD": 0.009230854878466345,
+      "Brier_mean": 0.1524447149642458,
+      "Brier_seed_SD": 0.001289998768909254,
+      "log_loss_mean": 0.47318839667618356,
+      "log_loss_seed_SD": 0.005252386173176736
+    },
+    {
+      "head": "ry_off",
+      "fits": 3,
+      "AUROC_CI_low": 0.8452641691012507,
+      "AUROC_CI_high": 0.9004277918171142,
+      "AUROC_mean": 0.8741857316410822,
+      "AUROC_seed_SD": 0.0012049363797156489,
+      "AP_mean": 0.8670515165035257,
+      "AP_seed_SD": 0.0011821076184042978,
+      "accuracy_mean": 0.793792724609375,
+      "accuracy_seed_SD": 0.00334651370231038,
+      "sensitivity_mean": 0.7637336915593007,
+      "sensitivity_seed_SD": 0.013892786230255033,
+      "specificity_mean": 0.8238260834197629,
+      "specificity_seed_SD": 0.008047960067895212,
+      "precision_mean": 0.8124944102273126,
+      "precision_seed_SD": 0.004353225483080391,
+      "F1_mean": 0.7872902816501463,
+      "F1_seed_SD": 0.005669367644558787,
+      "Brier_mean": 0.14626031262723693,
+      "Brier_seed_SD": 0.0014012015715352934,
+      "log_loss_mean": 0.45064144255285427,
+      "log_loss_seed_SD": 0.003080813806907287
+    },
+    {
+      "head": "ry_on",
+      "fits": 3,
+      "AUROC_CI_low": 0.8342146276226967,
+      "AUROC_CI_high": 0.8946235674526899,
+      "AUROC_mean": 0.8657107257091461,
+      "AUROC_seed_SD": 0.0019699752745342075,
+      "AP_mean": 0.8648807761942233,
+      "AP_seed_SD": 0.002791659535537915,
+      "accuracy_mean": 0.7864583333333334,
+      "accuracy_seed_SD": 0.005591494368297246,
+      "sensitivity_mean": 0.750381632777676,
+      "sensitivity_seed_SD": 0.009693172050062628,
+      "specificity_mean": 0.8225042197954163,
+      "specificity_seed_SD": 0.006278405540763796,
+      "precision_mean": 0.8085880066704503,
+      "precision_seed_SD": 0.005664272413819147,
+      "F1_mean": 0.7783769196468936,
+      "F1_seed_SD": 0.006499659462627105,
+      "Brier_mean": 0.15019768557916838,
+      "Brier_seed_SD": 0.0024897924171010505,
+      "log_loss_mean": 0.46232055122553795,
+      "log_loss_seed_SD": 0.005366954794512122
+    },
+    {
+      "head": "selected_classical",
+      "fits": 1,
+      "AUROC_CI_low": 0.8486001967440755,
+      "AUROC_CI_high": 0.9046317774921672,
+      "AUROC_mean": 0.8776218630502794,
+      "AUROC_seed_SD": null,
+      "AP_mean": 0.8742802494153226,
+      "AP_seed_SD": null,
+      "accuracy_mean": 0.792816162109375,
+      "accuracy_seed_SD": null,
+      "sensitivity_mean": 0.7698601697502595,
+      "sensitivity_seed_SD": null,
+      "specificity_mean": 0.8157525471295223,
+      "specificity_seed_SD": null,
+      "precision_mean": 0.8067571026362939,
+      "precision_seed_SD": null,
+      "F1_mean": 0.7878768942352757,
+      "F1_seed_SD": null,
+      "Brier_mean": 0.14585857720374085,
+      "Brier_seed_SD": null,
+      "log_loss_mean": 0.44709632003159827,
+      "log_loss_seed_SD": null
+    }
+  ],
+  "contrasts": [
+    {
+      "id": "on-selected",
+      "delta": -0.01191113734113336,
+      "conditional95": [
+        -0.0235935701389308,
+        -0.00037904222262289864
+      ],
+      "family95": [
+        -0.0235935701389308,
+        -0.00037904222262289864
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_selected_classical"
+      ],
+      "jackknife_SE": 0.0060887683836304525,
+      "t_statistic": -1.9562474035235509,
+      "df": 128,
+      "p_two_sided_posthoc": 0.0526136953338867
+    },
+    {
+      "id": "on-off",
+      "delta": -0.008475005931936064,
+      "conditional95": [
+        -0.01699048588991585,
+        -0.0006282476256412125
+      ],
+      "family95": [
+        -0.019470188672740606,
+        0.0014267583138591177
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_ry_off_101",
+        "resnet50_q8_ry_off_202",
+        "resnet50_q8_ry_off_303"
+      ],
+      "jackknife_SE": 0.004268460465636681,
+      "t_statistic": -1.9854947703426689,
+      "df": 128,
+      "p_two_sided_posthoc": 0.04922678973418576,
+      "p_Holm_secondary_posthoc": 0.15540808150033705
+    },
+    {
+      "id": "on-atan",
+      "delta": -0.007233385075265719,
+      "conditional95": [
+        -0.025643909687135893,
+        0.014326862823166092
+      ],
+      "family95": [
+        -0.029973022944318254,
+        0.02218328858377318
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_atan_101",
+        "resnet50_q8_mlp_atan_202",
+        "resnet50_q8_mlp_atan_303"
+      ],
+      "jackknife_SE": 0.010714971187092871,
+      "t_statistic": -0.6750727509168639,
+      "df": 128,
+      "p_two_sided_posthoc": 0.5008471629138869,
+      "p_Holm_secondary_posthoc": 0.6066471917985596
+    },
+    {
+      "id": "on-standard",
+      "delta": -0.010746965283905396,
+      "conditional95": [
+        -0.028908616698777312,
+        0.010240243351624817
+      ],
+      "family95": [
+        -0.033097516024879536,
+        0.017242464756585398
+      ],
+      "left_tags": [
+        "resnet50_q8_ry_on_101",
+        "resnet50_q8_ry_on_202",
+        "resnet50_q8_ry_on_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_standard_101",
+        "resnet50_q8_mlp_standard_202",
+        "resnet50_q8_mlp_standard_303"
+      ],
+      "jackknife_SE": 0.010398717764431247,
+      "t_statistic": -1.0334894673904245,
+      "df": 128,
+      "p_two_sided_posthoc": 0.3033235958992798,
+      "p_Holm_secondary_posthoc": 0.6066471917985596
+    },
+    {
+      "id": "atan-standard",
+      "delta": -0.0035135802086396772,
+      "conditional95": [
+        -0.006798170508430346,
+        -0.0003523657577334972
+      ],
+      "family95": [
+        -0.007650328185840243,
+        0.0005999394985436167
+      ],
+      "left_tags": [
+        "resnet50_q8_mlp_atan_101",
+        "resnet50_q8_mlp_atan_202",
+        "resnet50_q8_mlp_atan_303"
+      ],
+      "right_tags": [
+        "resnet50_q8_mlp_standard_101",
+        "resnet50_q8_mlp_standard_202",
+        "resnet50_q8_mlp_standard_303"
+      ],
+      "jackknife_SE": 0.0016833799981527942,
+      "t_statistic": -2.087217510303792,
+      "df": 128,
+      "p_two_sided_posthoc": 0.03885202037508426,
+      "p_Holm_secondary_posthoc": 0.15540808150033705
+    }
+  ],
+  "weighted_bootstrap_independent_draws_per_model": 32,
+  "bootstrap_models_verified": 13,
+  "statistical_test_status": "Delete-one-WSI jackknife t tests are post hoc sensitivity; primary inference remains locked paired WSI percentile bootstrap. df=128. Holm applies only to four secondary sensitivity tests."
+}

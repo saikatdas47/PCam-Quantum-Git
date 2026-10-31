@@ -1,0 +1,384 @@
+{
+  "replayed": [
+    {
+      "tag": "shared_mlp_standard_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "shared_mlp_standard_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 6.217248937900877e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 6.661338147750939e-15
+    },
+    {
+      "tag": "shared_mlp_standard_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "shared_mlp_standard_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.773159728050814e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 6.217248937900877e-15
+    },
+    {
+      "tag": "shared_mlp_standard_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.993605777301127e-15
+    },
+    {
+      "tag": "shared_mlp_standard_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.551115123125783e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.105427357601002e-15
+    },
+    {
+      "tag": "tuned_mlp_standard_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "shared_mlp_atan_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2878587085651816e-14
+    },
+    {
+      "tag": "shared_mlp_atan_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 9.769962616701378e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 6.217248937900877e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.105427357601002e-15
+    },
+    {
+      "tag": "shared_mlp_atan_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2434497875801753e-14
+    },
+    {
+      "tag": "shared_mlp_atan_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 9.769962616701378e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.105427357601002e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    },
+    {
+      "tag": "shared_mlp_atan_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.993605777301127e-15
+    },
+    {
+      "tag": "shared_mlp_atan_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.993605777301127e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 7.105427357601002e-15
+    },
+    {
+      "tag": "tuned_mlp_atan_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 8.43769498715119e-15
+    },
+    {
+      "tag": "shared_ry_off_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2434497875801753e-14
+    },
+    {
+      "tag": "shared_ry_off_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.3322676295501878e-14
+    },
+    {
+      "tag": "tuned_ry_off_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2434497875801753e-14
+    },
+    {
+      "tag": "tuned_ry_off_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.0658141036401503e-14
+    },
+    {
+      "tag": "shared_ry_off_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 8.881784197001252e-15
+    },
+    {
+      "tag": "shared_ry_off_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.1546319456101628e-14
+    },
+    {
+      "tag": "tuned_ry_off_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.0658141036401503e-14
+    },
+    {
+      "tag": "tuned_ry_off_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 8.881784197001252e-15
+    },
+    {
+      "tag": "shared_ry_off_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2434497875801753e-14
+    },
+    {
+      "tag": "shared_ry_off_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.0658141036401503e-14
+    },
+    {
+      "tag": "tuned_ry_off_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 9.769962616701378e-15
+    },
+    {
+      "tag": "tuned_ry_off_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.0658141036401503e-14
+    },
+    {
+      "tag": "shared_ry_on_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.3766765505351941e-14
+    },
+    {
+      "tag": "shared_ry_on_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2434497875801753e-14
+    },
+    {
+      "tag": "tuned_ry_on_101",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.1102230246251565e-14
+    },
+    {
+      "tag": "tuned_ry_on_101",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.1546319456101628e-14
+    },
+    {
+      "tag": "shared_ry_on_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.687538997430238e-14
+    },
+    {
+      "tag": "shared_ry_on_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.199040866595169e-14
+    },
+    {
+      "tag": "tuned_ry_on_202",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.1546319456101628e-14
+    },
+    {
+      "tag": "tuned_ry_on_202",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.0658141036401503e-14
+    },
+    {
+      "tag": "shared_ry_on_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.2878587085651816e-14
+    },
+    {
+      "tag": "shared_ry_on_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.4210854715202004e-14
+    },
+    {
+      "tag": "tuned_ry_on_303",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.4210854715202004e-14
+    },
+    {
+      "tag": "tuned_ry_on_303",
+      "split": "valid",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.5987211554602254e-14
+    },
+    {
+      "tag": "compression_lr_d8",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 1.7763568394002505e-15
+    },
+    {
+      "tag": "compression_lr_d32",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 3.552713678800501e-15
+    },
+    {
+      "tag": "compression_lr_d128",
+      "split": "test",
+      "rows": 32768,
+      "max_absolute_score_difference": 5.329070518200751e-15
+    }
+  ],
+  "neural_final_checkpoints_verified": 12,
+  "initial_states_verified": 12,
+  "cnot_initial_pairs_verified": 3,
+  "source_versions": [
+    {
+      "file": "2eb18ba192cb5db87878880f7c9deca597bbcd6614a0f4b6ce8508a4efc31669.py",
+      "sha256": "2eb18ba192cb5db87878880f7c9deca597bbcd6614a0f4b6ce8508a4efc31669",
+      "top_level_same": {
+        "expectations": true,
+        "Circuit": true,
+        "MLP": true,
+        "make_head": true
+      }
+    },
+    {
+      "file": "39a81239b41af51acf6bf014aa946975888e4615ba7d1a0e440cf72de50d4537.py",
+      "sha256": "39a81239b41af51acf6bf014aa946975888e4615ba7d1a0e440cf72de50d4537",
+      "top_level_same": {
+        "expectations": true,
+        "Circuit": true,
+        "MLP": true,
+        "make_head": true
+      }
+    },
+    {
+      "file": "83f3938e0eea12f51a8931e4fc09a4156d6d7dcd5e054d76897c36ab4fb99c2a.py",
+      "sha256": "83f3938e0eea12f51a8931e4fc09a4156d6d7dcd5e054d76897c36ab4fb99c2a",
+      "top_level_same": {
+        "expectations": true,
+        "Circuit": true,
+        "MLP": true,
+        "make_head": true
+      }
+    },
+    {
+      "file": "d0344a1ce4e1c2355c3431e1a96cdd1dfb5bc85afd7e714452c03f1c1bafa151.py",
+      "sha256": "d0344a1ce4e1c2355c3431e1a96cdd1dfb5bc85afd7e714452c03f1c1bafa151",
+      "top_level_same": {
+        "expectations": true,
+        "Circuit": true,
+        "MLP": true,
+        "make_head": true
+      }
+    },
+    {
+      "file": "f1804c27404a48c574ab1042253131c29069823306aea814f745c5d830cdc43a.py",
+      "sha256": "f1804c27404a48c574ab1042253131c29069823306aea814f745c5d830cdc43a",
+      "top_level_same": {
+        "expectations": true,
+        "Circuit": true,
+        "MLP": true,
+        "make_head": true
+      }
+    }
+  ],
+  "independent_numpy_circuit": [
+    {
+      "cnot": false,
+      "max_error": 1.3322676295501878e-15
+    },
+    {
+      "cnot": true,
+      "max_error": 1.27675647831893e-15
+    }
+  ],
+  "unavailable": [
+    "2048D logistic score replay: complete 2048D feature matrix absent; coefficients, checkpoints, predictions, metrics and checksums audited",
+    "Retraining and whole previous input equality across CPU/CUDA transitions not performed"
+  ],
+  "environment": {
+    "torch": "2.14.1",
+    "numpy": "1.26.4",
+    "python": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.6.3.2)]"
+  }
+}

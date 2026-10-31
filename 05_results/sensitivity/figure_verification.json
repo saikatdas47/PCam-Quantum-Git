@@ -1,0 +1,112 @@
+[
+  {
+    "file": "Fig1_head_comparisons.png",
+    "pixels": [
+      2600,
+      2160
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ]
+  },
+  {
+    "file": "Fig1_head_comparisons.tif",
+    "pixels": [
+      2600,
+      2160
+    ],
+    "dpi": [
+      400.0,
+      400.0
+    ]
+  },
+  {
+    "file": "Fig2_compression.png",
+    "pixels": [
+      2600,
+      1400
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ]
+  },
+  {
+    "file": "Fig2_compression.tif",
+    "pixels": [
+      2600,
+      1400
+    ],
+    "dpi": [
+      400.0,
+      400.0
+    ]
+  },
+  {
+    "file": "Fig3_learning_rates.png",
+    "pixels": [
+      2600,
+      1480
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ]
+  },
+  {
+    "file": "Fig3_learning_rates.tif",
+    "pixels": [
+      2600,
+      1480
+    ],
+    "dpi": [
+      400.0,
+      400.0
+    ]
+  },
+  {
+    "file": "S1_Fig_ranking_curves.png",
+    "pixels": [
+      2600,
+      2320
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ]
+  },
+  {
+    "file": "S1_Fig_ranking_curves.tif",
+    "pixels": [
+      2600,
+      2320
+    ],
+    "dpi": [
+      400.0,
+      400.0
+    ]
+  },
+  {
+    "file": "S2_Fig_training_diagnostics.png",
+    "pixels": [
+      2600,
+      2200
+    ],
+    "dpi": [
+      399.9992,
+      399.9992
+    ]
+  },
+  {
+    "file": "S2_Fig_training_diagnostics.tif",
+    "pixels": [
+      2600,
+      2200
+    ],
+    "dpi": [
+      400.0,
+      400.0
+    ]
+  }
+]

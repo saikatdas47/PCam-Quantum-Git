@@ -1,0 +1,11 @@
+{
+  "asset": "pcam_sensitivity_evidence.zip",
+  "sha256": "07dc18ffec077aff278b540ab5bcc69a60e28045445c35ed16870d4c471c59e1",
+  "bytes": 161788121,
+  "members": 1397,
+  "release_tag": "analysis-2026-10-31",
+  "release_url": "https://github.com/saikatdas47/PCam-Quantum-Git/releases/tag/analysis-2026-10-31",
+  "source_manifest_sha256": "e91ff097ea8e757af241daa7874ac7d97dfd826215d5b390b2d75dc69bc88494",
+  "contains_raw_images": false,
+  "contains_full_2048_feature_cache": false
+}

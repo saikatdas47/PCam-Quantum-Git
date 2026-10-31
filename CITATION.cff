@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite this research software and the original PCam dataset when using these materials."
-title: "PCam ResNet50 head comparison"
+title: "Representation compression and learning rate sensitivity in PCam head comparisons"
 type: software
-version: 0.4.0
+version: 0.5.0
 authors:
   - family-names: Das
     given-names: Saikat

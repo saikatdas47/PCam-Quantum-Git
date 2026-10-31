@@ -1,0 +1,522 @@
+[
+  {
+    "tag": "compression_cv0_d128_C0.1",
+    "converged": true,
+    "iterations": 16,
+    "compute_seconds": 0.5903379860008044,
+    "gradient_max": 1.4495393049363675e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.30145048796368246,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d128_C1.0",
+    "converged": true,
+    "iterations": 18,
+    "compute_seconds": 0.6005614139999125,
+    "gradient_max": 4.747767452255216e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.295529587662517,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d128_C10.0",
+    "converged": true,
+    "iterations": 18,
+    "compute_seconds": 0.5802975450005761,
+    "gradient_max": 4.6598086347202097e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.294893799876221,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d2048_C0.1",
+    "converged": true,
+    "iterations": 345,
+    "compute_seconds": 180.402245037998,
+    "gradient_max": 1.371828965821074e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.14225496881283944,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d2048_C1.0",
+    "converged": true,
+    "iterations": 734,
+    "compute_seconds": 383.02350275600134,
+    "gradient_max": 1.1389284413642644e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.08437852978756039,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d2048_C10.0",
+    "converged": false,
+    "iterations": 1000,
+    "compute_seconds": 522.7914908110022,
+    "gradient_max": 1.145059157133537e-05,
+    "max_parameter_change": 0.00028430189296901887,
+    "objective": 0.039594494371476885,
+    "stopping_rule": "iteration_limit",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d32_C0.1",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.2454916570000023,
+    "gradient_max": 3.3258711353977444e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3529813432915544,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d32_C1.0",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.25446491499997137,
+    "gradient_max": 4.0963766514504085e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3492566974168098,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d32_C10.0",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.2653294909998749,
+    "gradient_max": 4.1877649236969936e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3488704113371831,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d8_C0.1",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.2912867060001645,
+    "gradient_max": 9.141117109031944e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.42797491735200344,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d8_C1.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.13957603900030335,
+    "gradient_max": 1.1869217613827522e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.42603554029319957,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv0_d8_C10.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.13380505399982212,
+    "gradient_max": 1.2188496348593885e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.42583839644914545,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d128_C0.1",
+    "converged": true,
+    "iterations": 17,
+    "compute_seconds": 0.629241165998792,
+    "gradient_max": 6.803219855450518e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3179409193672377,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d128_C1.0",
+    "converged": true,
+    "iterations": 18,
+    "compute_seconds": 0.6004356249986813,
+    "gradient_max": 7.502753969230308e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.31302942870838263,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d128_C10.0",
+    "converged": true,
+    "iterations": 18,
+    "compute_seconds": 0.6042882520018793,
+    "gradient_max": 7.881816850544184e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3125101221535977,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d2048_C0.1",
+    "converged": true,
+    "iterations": 364,
+    "compute_seconds": 190.5905827579977,
+    "gradient_max": 1.3210141402013895e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.15753827066410503,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d2048_C1.0",
+    "converged": true,
+    "iterations": 816,
+    "compute_seconds": 429.9685497310006,
+    "gradient_max": 1.0926320132687448e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.10142153029227174,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d2048_C10.0",
+    "converged": false,
+    "iterations": 1000,
+    "compute_seconds": 524.9909340480012,
+    "gradient_max": 2.5154532901847975e-05,
+    "max_parameter_change": 0.0007578400066607927,
+    "objective": 0.05786767667702093,
+    "stopping_rule": "iteration_limit",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d32_C0.1",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.2788752919991566,
+    "gradient_max": 2.9159375846131543e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.37736772194672846,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d32_C1.0",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.25398744800031636,
+    "gradient_max": 4.2769488619789207e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.37425398234513246,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d32_C10.0",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.2594888499993431,
+    "gradient_max": 4.4386520569178185e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3739332123820819,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d8_C0.1",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.1288761230007367,
+    "gradient_max": 1.6750460007887089e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.442534291164101,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d8_C1.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.13657607499953883,
+    "gradient_max": 1.9693263040466296e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.4408484676731195,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv1_d8_C10.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.1374093360000188,
+    "gradient_max": 2.0018722318463807e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.440677455661063,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d128_C0.1",
+    "converged": true,
+    "iterations": 16,
+    "compute_seconds": 0.5882171699995524,
+    "gradient_max": 4.247951039262833e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.3124031851002116,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d128_C1.0",
+    "converged": true,
+    "iterations": 16,
+    "compute_seconds": 0.5548981670008288,
+    "gradient_max": 7.728973622217789e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.30756579619168684,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d128_C10.0",
+    "converged": true,
+    "iterations": 16,
+    "compute_seconds": 0.5568132940002215,
+    "gradient_max": 8.197112070000428e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.30705629743883894,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d2048_C0.1",
+    "converged": true,
+    "iterations": 379,
+    "compute_seconds": 206.2021703200021,
+    "gradient_max": 1.5057816874116921e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.15662143255985322,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d2048_C1.0",
+    "converged": true,
+    "iterations": 841,
+    "compute_seconds": 454.1245628359866,
+    "gradient_max": 1.18017604830242e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.10303003235338608,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d2048_C10.0",
+    "converged": false,
+    "iterations": 1000,
+    "compute_seconds": 533.2314853030084,
+    "gradient_max": 3.04422273395405e-05,
+    "max_parameter_change": 0.0010701694996035904,
+    "objective": 0.06163602105833425,
+    "stopping_rule": "iteration_limit",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d32_C0.1",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.25217367499908505,
+    "gradient_max": 1.1707003333126e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.3702525227249661,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d32_C1.0",
+    "converged": true,
+    "iterations": 13,
+    "compute_seconds": 0.22550345399940852,
+    "gradient_max": 9.864767423904046e-08,
+    "max_parameter_change": 2.8622522026788833e-05,
+    "objective": 0.3670649046585776,
+    "stopping_rule": "gradient",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d32_C10.0",
+    "converged": true,
+    "iterations": 14,
+    "compute_seconds": 0.2411598479998247,
+    "gradient_max": 1.0640166818012332e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.366736592963547,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d8_C0.1",
+    "converged": true,
+    "iterations": 9,
+    "compute_seconds": 0.13846392300047228,
+    "gradient_max": 4.55233352565415e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.4366304456138916,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d8_C1.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.133025464000184,
+    "gradient_max": 2.812961442728646e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.43483029306153287,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_cv2_d8_C10.0",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 0.13867315699917526,
+    "gradient_max": 2.948537425781064e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.4346475028335664,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_lr_d128",
+    "converged": true,
+    "iterations": 17,
+    "compute_seconds": 8.212175980003849,
+    "gradient_max": 7.392515010686766e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.32136330090740634,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_lr_d2048",
+    "converged": true,
+    "iterations": 840,
+    "compute_seconds": 10173.32555646399,
+    "gradient_max": 1.8703037533851544e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.21473475041478746,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_lr_d32",
+    "converged": true,
+    "iterations": 13,
+    "compute_seconds": 2.621295834997909,
+    "gradient_max": 1.1116808429646924e-06,
+    "max_parameter_change": 0.0,
+    "objective": 0.3711474910153652,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  },
+  {
+    "tag": "compression_lr_d8",
+    "converged": true,
+    "iterations": 10,
+    "compute_seconds": 1.5717397849994086,
+    "gradient_max": 1.552603156800914e-07,
+    "max_parameter_change": 0.0,
+    "objective": 0.43658183044201965,
+    "stopping_rule": "parameter_change",
+    "devices": [
+      "cuda"
+    ]
+  }
+]

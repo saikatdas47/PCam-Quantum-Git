@@ -1,0 +1,362 @@
+[
+  {
+    "tag": "compression_cv0_d128_C0.1",
+    "AUROC": 0.9066707063711911,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d128_C1.0",
+    "AUROC": 0.9064607241788682,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d128_C10.0",
+    "AUROC": 0.9064382172536606,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d2048_C0.1",
+    "AUROC": 0.8999674762564305,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d2048_C1.0",
+    "AUROC": 0.882529432132964,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d2048_C10.0",
+    "AUROC": 0.8696782251681836,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d32_C0.1",
+    "AUROC": 0.8801402354570638,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d32_C1.0",
+    "AUROC": 0.880227666204986,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d32_C10.0",
+    "AUROC": 0.8802234616145627,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d8_C0.1",
+    "AUROC": 0.84945884447962,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d8_C1.0",
+    "AUROC": 0.8493793282548476,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv0_d8_C10.0",
+    "AUROC": 0.8493717847249703,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d128_C0.1",
+    "AUROC": 0.917791785800807,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d128_C1.0",
+    "AUROC": 0.9177173725169252,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d128_C10.0",
+    "AUROC": 0.9177133464250735,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d2048_C0.1",
+    "AUROC": 0.9125666127309189,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d2048_C1.0",
+    "AUROC": 0.8880314701552059,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d2048_C10.0",
+    "AUROC": 0.8687866122727775,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d32_C0.1",
+    "AUROC": 0.9134297235254959,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d32_C1.0",
+    "AUROC": 0.913430556510017,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d32_C10.0",
+    "AUROC": 0.9134320836483056,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d8_C0.1",
+    "AUROC": 0.8748311644498865,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d8_C1.0",
+    "AUROC": 0.8748718418606654,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv1_d8_C10.0",
+    "AUROC": 0.8748772562600522,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d128_C0.1",
+    "AUROC": 0.9126406053838314,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d128_C1.0",
+    "AUROC": 0.9128144738673413,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d128_C10.0",
+    "AUROC": 0.9128281520854276,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d2048_C0.1",
+    "AUROC": 0.9246278008795517,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d2048_C1.0",
+    "AUROC": 0.9077770822725076,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d2048_C10.0",
+    "AUROC": 0.8910157656269764,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d32_C0.1",
+    "AUROC": 0.8989018929102693,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d32_C1.0",
+    "AUROC": 0.8990265480111801,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d32_C10.0",
+    "AUROC": 0.8990350087646356,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d8_C0.1",
+    "AUROC": 0.8708119094129689,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d8_C1.0",
+    "AUROC": 0.8707701696959219,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "compression_cv2_d8_C10.0",
+    "AUROC": 0.8707674904573277,
+    "kind": "cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_atan_lr0.001",
+    "AUROC": 0.8772165611396913,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_atan_lr0.003",
+    "AUROC": 0.876490032647408,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_atan_lr0.01",
+    "AUROC": 0.8720984616145627,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_standard_lr0.001",
+    "AUROC": 0.8839368569449941,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_standard_lr0.003",
+    "AUROC": 0.8793815542144836,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_mlp_standard_lr0.01",
+    "AUROC": 0.8757813118322121,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_off_lr0.001",
+    "AUROC": 0.8535621537396123,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_off_lr0.003",
+    "AUROC": 0.855143821725366,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_off_lr0.01",
+    "AUROC": 0.8559196923229127,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_on_lr0.001",
+    "AUROC": 0.8287723832607836,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_on_lr0.003",
+    "AUROC": 0.8320790462999604,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv0_ry_on_lr0.01",
+    "AUROC": 0.8373519736842104,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_atan_lr0.001",
+    "AUROC": 0.8944404530602809,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_atan_lr0.003",
+    "AUROC": 0.8884308862330567,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_atan_lr0.01",
+    "AUROC": 0.8818997322648918,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_standard_lr0.001",
+    "AUROC": 0.8937002074825611,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_standard_lr0.003",
+    "AUROC": 0.8869492844315888,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_mlp_standard_lr0.01",
+    "AUROC": 0.8839100015757291,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_off_lr0.001",
+    "AUROC": 0.8829280516561469,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_off_lr0.003",
+    "AUROC": 0.8840092655644893,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_off_lr0.01",
+    "AUROC": 0.883673850464007,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_on_lr0.001",
+    "AUROC": 0.8605035530260592,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_on_lr0.003",
+    "AUROC": 0.8648282698286759,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv1_ry_on_lr0.01",
+    "AUROC": 0.8674510604240029,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_atan_lr0.001",
+    "AUROC": 0.8880804482281561,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_atan_lr0.003",
+    "AUROC": 0.8891594763188447,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_atan_lr0.01",
+    "AUROC": 0.8871394714313493,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_standard_lr0.001",
+    "AUROC": 0.885075329613328,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_standard_lr0.003",
+    "AUROC": 0.8866298520482144,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_mlp_standard_lr0.01",
+    "AUROC": 0.8829598592243435,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_off_lr0.001",
+    "AUROC": 0.874176187011982,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_off_lr0.003",
+    "AUROC": 0.8747706959547868,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_off_lr0.01",
+    "AUROC": 0.8771539491906374,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_on_lr0.001",
+    "AUROC": 0.841477631107483,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_on_lr0.003",
+    "AUROC": 0.8722420587720597,
+    "kind": "original_evidence/cv_predictions"
+  },
+  {
+    "tag": "resnet50_cv2_ry_on_lr0.01",
+    "AUROC": 0.8733224969883243,
+    "kind": "original_evidence/cv_predictions"
+  }
+]

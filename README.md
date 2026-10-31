@@ -1,6 +1,6 @@
-# PCam ResNet50 head comparison
+# Representation and optimization in PCam head comparisons
 
-I compare small simulated quantum and classical classification heads using the same frozen ResNet50 representation of PatchCamelyon images. The question is whether the tested circuit improves patch classification under an eight component constraint and a shared neural training schedule.
+I compare small simulated quantum and classical classification heads using the same frozen ResNet50 representation of PatchCamelyon images. The original question is whether the tested circuit improves patch classification under an eight component constraint and a shared neural training schedule. Subsequent post hoc analyses quantify compression and finite learning-rate sensitivity. They do not change the original locked models or inferential result.
 
 **Saikat Das**  
 Department of Computer Science and Engineering  
@@ -66,3 +66,10 @@ Dataset: https://github.com/basveeling/pcam#download
 Mirror listed by maintainers: https://zenodo.org/records/2546921
 
 Keep the official splits. Raw images and complete frozen feature arrays are not in the original evidence export. The final reduced scope is recorded in `01_plan/final_scope.json`. Older protocols are provenance, not the final executed schedule. See [07_evidence/PROVENANCE.md](07_evidence/PROVENANCE.md) for source terms and limitations.
+
+
+## Compression and learning-rate sensitivity release
+
+The [analysis-2026-10-31 release](https://github.com/saikatdas47/PCam-Quantum-Git/releases/tag/analysis-2026-10-31) adds immutable evidence for 28 fitted models, 20,000 paired WSI bootstrap draws, separate seed variation, model replay and runtime/stopping audits. Read [the scientific results](05_results/sensitivity/README.md) and [reanalysis instructions](04_code/sensitivity/README.md). Necessary current plots are in `06_figures/sensitivity` at 400 DPI. The original figures remain historical outputs. No new methodology figure is supplied in this release.
+
+Compression logistic AUROC increases from 0.8695 at 8 dimensions to 0.9108 at 2048. CNOT-on rate selection improves its retained mean but does not establish a selected-rate between-head advantage. The 2048D score replay is unavailable without the full feature matrix. All final logistic fits stopped by parameter-change tolerance, and three unselected CV jobs reached the iteration limit. These limits and the post hoc sequence are disclosed.

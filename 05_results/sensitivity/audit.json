@@ -1,0 +1,85 @@
+{
+  "manifest_entries": 1394,
+  "manifest_mismatches": 0,
+  "locked_artifacts": 182,
+  "test_predictions": 28,
+  "original_predictions": 13,
+  "metric_records_verified": 56,
+  "maximum_metric_error": 0,
+  "CV_predictions_verified": 72,
+  "rows": 32768,
+  "slides": 129,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 71913,
+  "pair_matrix_point_max_error": 1.1102230246251565e-16,
+  "direct_weighted_bootstrap_draws_per_model": 8,
+  "direct_weighted_bootstrap_max_error": 2.220446049250313e-16,
+  "transitions": [
+    {
+      "action": "numerically_validated_device_transition",
+      "previous_identity": {
+        "input_hash": "a43f59950a675c950ea544a07e9f406aaae40ef5bf6f706d32fca33bb9dc4a25",
+        "label_hash": "f506743245b42d260c96eacfd0841139a7062cf2092d3612b0a78a9561b5d8c6",
+        "shared_lr": 0.003,
+        "selected_lr": 0.001,
+        "seed": 101,
+        "head": "mlp_standard"
+      },
+      "current_input_hash": "88aacaeb4dc6603c0364f35f6a0fd9e32771486e78130848ebdde08cb6a34e35",
+      "reference_rows_checked": 1024,
+      "reference_max_absolute_difference": 3.9968028886505635e-15,
+      "reference_rtol": 1e-10,
+      "reference_atol": 1e-10,
+      "checkpoint_losses": {
+        "shared": 0.3613249529263329,
+        "tuned": 0.36187604161881853
+      },
+      "previous_losses": {
+        "shared": 0.3613249529263328,
+        "tuned": 0.3618760416188186
+      },
+      "loss_rtol": 1e-08,
+      "loss_atol": 1e-08,
+      "epoch": 8,
+      "offset": 61440,
+      "runtime": {
+        "time_utc": "2026-10-26T07:49:02Z",
+        "python": "3.13.16",
+        "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+        "device": "cpu",
+        "gpu": null,
+        "versions": {
+          "torch": "2.11.0+cpu",
+          "numpy": "2.1.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "joblib": "1.6.0"
+        },
+        "threads": 2,
+        "dtype": "float64",
+        "TF32": false
+      },
+      "checkpoint_retained": true,
+      "bitwise_equivalence_claimed": false,
+      "limit": "Only the archived reference cohort is compared against previous input values. Previous full input bytes are unavailable. Full old-input equality is not proven."
+    }
+  ],
+  "optimization_limit_jobs": [
+    "compression_cv0_d2048_C10.0",
+    "compression_cv1_d2048_C10.0",
+    "compression_cv2_d2048_C10.0"
+  ],
+  "environment": {
+    "python": "3.10.19 (main, Oct  9 2025, 15:25:03) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "numpy": "1.26.4",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "analysis_elapsed_seconds": 6.367606249999994,
+  "limits": [
+    "No new training or encoder extraction",
+    "No external investigator replication",
+    "Full original 2048-feature caches absent",
+    "Bootstrap conditional on fitted models, selected hyperparameters and fixed seeds",
+    "Post hoc analysis after original test inspection"
+  ]
+}
