@@ -1,4 +1,4 @@
-> Availability: The analysis code, summaries, bootstrap arrays, audits and current figures are public. The complete model/per-patch evidence archive is prepared locally; public asset upload is pending explicit author approval. Download commands below apply once the assets are deposited.
+> Local handoff: Complete evidence files are in `07_evidence/sensitivity_archive`. Remote archive upload was stopped at the user's request. The user will handle any later push.
 
 # Compression and paired learning-rate analyses
 
