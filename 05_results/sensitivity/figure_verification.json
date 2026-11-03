@@ -66,7 +66,7 @@
     ]
   },
   {
-    "file": "S1_Fig_ranking_curves.png",
+    "file": "Fig4_ranking_curves.png",
     "pixels": [
       2600,
       2320
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "file": "S1_Fig_ranking_curves.tif",
+    "file": "Fig4_ranking_curves.tif",
     "pixels": [
       2600,
       2320
@@ -88,7 +88,7 @@
     ]
   },
   {
-    "file": "S2_Fig_training_diagnostics.png",
+    "file": "S1_Fig_training_diagnostics.png",
     "pixels": [
       2600,
       2200
@@ -99,7 +99,7 @@
     ]
   },
   {
-    "file": "S2_Fig_training_diagnostics.tif",
+    "file": "S1_Fig_training_diagnostics.tif",
     "pixels": [
       2600,
       2200

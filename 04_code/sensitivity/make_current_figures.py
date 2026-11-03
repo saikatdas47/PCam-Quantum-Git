@@ -29,7 +29,7 @@ for ax,rs,labs,title in [(axs[0],rows,labels,'A  Original shared-schedule compar
  for i,r in enumerate(rs):
   ci=r.get('family95',r.get('CI95_family'));v=r['delta'];color=blue if ax==axs[0] and i==0 else orange
   ax.plot(np.array(ci)*100,[i,i],color=color,lw=1.6);ax.plot(v*100,i,'o',color=color,ms=4)
- ax.set_yticks(range(len(rs)),labs);ax.invert_yaxis();ax.axvline(0,color='.45',ls='--',lw=.8);ax.set_title(title,loc='left');ax.grid(axis='x',alpha=.2);ax.set_xlabel('AUROC difference (percentage points)')
+ ax.set_yticks(range(len(rs)),labs);ax.invert_yaxis();ax.axvline(0,color='.45',ls='--',lw=.8);ax.set_title(title,loc='left');ax.grid(axis='x',alpha=.2);ax.set_xlabel('AUROC difference (percentage points)');ax.set_xlim(-3.5,3.3)
 save(fig,'Fig1_head_comparisons')
 # Compression performance + its prespecified post hoc contrast family.
 fig,axs=plt.subplots(1,2,figsize=(6.5,3.5),layout='constrained',gridspec_kw={'width_ratios':[1,1.25]})
@@ -62,7 +62,7 @@ for row in range(2):
  axs[row,0].plot([0,1],[0,1],ls=':',color='.6',lw=.7);axs[row,0].set(xlabel='False positive rate',ylabel='True positive rate');axs[row,1].axhline(float(y.mean()),ls=':',color='.6',lw=.7);axs[row,1].set(xlabel='Recall',ylabel='Precision')
  for ax in axs[row]:ax.set(xlim=(0,1),ylim=(0,1.02));ax.grid(alpha=.15)
 axs[0,0].set_title('A  Compression ROC',loc='left');axs[0,1].set_title('B  Compression precision–recall',loc='left');axs[1,0].set_title('C  Selected-rate head ROC',loc='left');axs[1,1].set_title('D  Selected-rate precision–recall',loc='left');axs[0,0].legend(loc='lower right');axs[1,0].legend(loc='lower right',fontsize=7)
-save(fig,'S1_Fig_ranking_curves')
+save(fig,'Fig4_ranking_curves')
 # Learning diagnostics and measured compute, distinct from wall time.
 fig,axs=plt.subplots(2,2,figsize=(6.5,5.5),layout='constrained')
 for ax,h,title in zip(axs.flat,['mlp_standard','mlp_atan','ry_off','ry_on'],heads):
@@ -70,7 +70,7 @@ for ax,h,title in zip(axs.flat,['mlp_standard','mlp_atan','ry_off','ry_on'],head
   j=json.loads((E/f'jobs/pair_{h}_{seed}.json').read_text())
   for schedule,col,ls in [('shared',blue,'--'),('tuned',orange,'-')]:ax.plot([r['epoch'] for r in j['trace'][schedule]],[r['diagnostic_train_BCE'] for r in j['trace'][schedule]],color=col,ls=ls,lw=.8,alpha=.65,label=schedule.replace('tuned','Selected') if seed==101 else None)
  ax.set_title(title,loc='left');ax.set(xlabel='Epoch',ylabel='Diagnostic training BCE');ax.grid(alpha=.15)
-axs[0,0].legend();save(fig,'S2_Fig_training_diagnostics')
+axs[0,0].legend();save(fig,'S1_Fig_training_diagnostics')
 verification=[]
 for f in sorted(F.glob('*')):
  with Image.open(f) as im:
